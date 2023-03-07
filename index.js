@@ -1,5 +1,6 @@
 const express = require('express');
 const history = require('connect-history-api-fallback');
+const userRouter = require('./router');
 const app = express();
 
 // 使用h5 history模式需要载入 connect-history-api-fallback 中间件，用于单页面项目
@@ -29,6 +30,8 @@ app.use(function (req, res, next) {
     );
     next();
 });
+
+app.use(userRouter);
 
 app.listen(8082, () => {
     console.log('express server running at http://127.0.0.1:8082')
