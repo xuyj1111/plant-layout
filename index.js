@@ -31,6 +31,8 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(userRouter);
 
 app.listen(8082, () => {
