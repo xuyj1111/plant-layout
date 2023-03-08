@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const prefix = '/api';
 
-router.post(prefix + '/login', (request, response) => {
+router.post('/login', (request, response) => {
     var user = request.body.user;
     var pwd = request.body.pwd;
     if(user == 'root' && pwd == '1234') {
