@@ -1,6 +1,6 @@
 const express = require('express');
 const history = require('connect-history-api-fallback');
-const userRouter = require('./router');
+const userRouter = require('./modules/router');
 const app = express();
 
 // 使用h5 history模式需要载入 connect-history-api-fallback 中间件，用于单页面项目
