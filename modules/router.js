@@ -3,6 +3,7 @@ const req = require('express/lib/request');
 const router = express.Router();
 const fs = require('fs');
 
+// “登陆”接口
 router.post('/login', (request, response) => {
     console.log('>>> request to login, user: ' + request.body.user);
     var user = request.body.user;
@@ -16,9 +17,11 @@ router.post('/login', (request, response) => {
     }
 });
 
+// “获取地图数据”接口
 router.get('/plant', (request, response) => {
     console.log('>>> request to get plant data, plant name: ' + request.query.name);
-    fs.readFile('./metadata/' + request.query.name + '.txt', 'utf-8', function (err, data) {
+    var fileName = './metadata/' + request.query.name + '.txt';
+    fs.readFile(fileName, 'utf-8', function (err, data) {
         if (err) {
             return console.log('文件读取失败：' + err.message);
         }
