@@ -2,6 +2,8 @@ const express = require('express');
 const req = require('express/lib/request');
 const router = express.Router();
 const fs = require('fs');
+const iconv = require('iconv-lite');
+const chardet = require('chardet');
 
 // “登陆”接口
 router.post('/login', (request, response) => {
@@ -21,11 +23,12 @@ router.post('/login', (request, response) => {
 router.get('/plant', (request, response) => {
     console.log('>>> request to get plant data, plant name: ' + request.query.name);
     var fileName = './metadata/' + request.query.name + '.txt';
-    fs.readFile(fileName, 'utf-8', function (err, data) {
+    fs.readFile(fileName, function (err, data) {
         if (err) {
             return console.log('文件读取失败：' + err.message);
         }
-        response.send(data);
+        const encoding = chardet.detect(data);
+        response.send(iconv.decode(data, encoding));
     })
 })
 
