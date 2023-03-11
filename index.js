@@ -35,6 +35,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', userRouter);
 
-app.listen(8082, () => {
-    console.log('express server running at http://127.0.0.1:8082')
+app.listen(8889, () => {
+    console.log('express server running at http://127.0.0.1:8889')
 });
