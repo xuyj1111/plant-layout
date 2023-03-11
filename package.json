@@ -21,6 +21,7 @@
     "chardet": "^1.5.1",
     "connect-history-api-fallback": "^2.0.0",
     "express": "^4.18.2",
-    "iconv-lite": "^0.6.3"
+    "iconv-lite": "^0.6.3",
+    "uuid": "^9.0.0"
   }
 }
