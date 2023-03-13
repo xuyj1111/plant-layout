@@ -10,13 +10,32 @@ router.post('/login', (request, response) => {
     console.log('>>> request to login, user: ' + request.body.user);
     var user = request.body.user;
     var pwd = request.body.pwd;
-    if (user == 'root' && pwd == '1234') {
-        response.send();
-    } else {
-        response.statusCode = 400;
-        response.statusMessage = 'Wrong account password';
-        response.send();
-    }
+    fs.readFile('./metadata/config.txt', function (err, data) {
+        if (err) {
+            console.log('配置文件读取失败：' + err.message);
+            response.statusCode = 400;
+            response.statusMessage = 'Failed to read configuration file';
+            response.send();
+            return;
+        }
+        try {
+            const encoding = chardet.detect(data);
+            const jsonObj = JSON.parse(iconv.decode(data, encoding));
+            if (user == jsonObj['user'] && pwd == jsonObj['pwd']) {
+                response.send();
+            } else {
+                console.log('用户名密码错误');
+                response.statusCode = 400;
+                response.statusMessage = 'Wrong account password';
+                response.send();
+            }
+        } catch (error) {
+            console.log('解析配置文件失败: ' + error.message);
+            response.statusCode = 400;
+            response.statusMessage = 'Failed to parse configuration file';
+            response.send();
+        }
+    })
 });
 
 // “获取地图数据”接口
@@ -25,10 +44,21 @@ router.get('/plant', (request, response) => {
     var fileName = './metadata/' + request.query.name + '.txt';
     fs.readFile(fileName, function (err, data) {
         if (err) {
-            return console.log('文件读取失败：' + err.message);
+            console.log('地图文件读取失败：' + err.message);
+            response.statusCode = 400;
+            response.statusMessage = 'Failed to read map file';
+            response.send();
+            return;
         }
-        const encoding = chardet.detect(data);
-        response.send(iconv.decode(data, encoding));
+        try {
+            const encoding = chardet.detect(data);
+            response.send(iconv.decode(data, encoding));
+        } catch (error) {
+            console.log('解析地图数据失败: ' + error.message);
+            response.statusCode = 400;
+            response.statusMessage = 'Failed to parse map data';
+            response.send();
+        }
     })
 })
 
