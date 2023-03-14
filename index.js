@@ -31,6 +31,9 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.use(express.urlencoded({ extended: true, limit: "10mb" }));
+app.use(express.json({ extended: true, limit: "10mb" }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', userRouter);

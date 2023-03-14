@@ -62,4 +62,20 @@ router.get('/plant', (request, response) => {
     })
 })
 
+// “更新地图数据”接口
+router.post('/plant', (request, response) => {
+    console.log('>>> request to update plant data, plant name: ' + request.query.name);
+    var fileName = './metadata/' + request.query.name + '.txt';
+    fs.writeFile(fileName, JSON.stringify(request.body, null, 4), 'utf8', (err) => {
+        if (err) {
+            console.log('地图文件修改失败：' + err.message);
+            response.statusCode = 400;
+            response.statusMessage = 'Failed to write map file';
+            response.send();
+            return;
+        }
+        response.send();
+    });
+})
+
 module.exports = router;
