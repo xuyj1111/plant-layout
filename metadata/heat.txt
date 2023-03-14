@@ -50,7 +50,7 @@
         "coordX": "126.31",
         "coordY": "46.536",
         "width": "4.77099999999999",
-        "height": "15.771",
+        "height": "4.771",
         "conveyor": "false"
     },
     {

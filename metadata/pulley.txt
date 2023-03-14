@@ -1,2009 +1,2000 @@
 [
     {
-        "deviceNum":"MJK50027",
-        "stationNum":"541f6eda-6320-4e3a-b12b-0f54d7f1c747",
-        "coordX":"534.035",
-        "coordY":"287.406",
-        "width":"10.121",
-        "height":"13.793",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5f7c370f-6626-44cd-a17a-d59662f90ce8",
-        "coordX":"376.021",
-        "coordY":"115.943",
-        "width":"4.77099999999996",
-        "height":"5.23400000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d0bb8935-bd87-47aa-89d1-7e45deeea6d0",
-        "coordX":"517.682",
-        "coordY":"287.406",
-        "width":"10.121",
-        "height":"13.793",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7bb3db83-402c-44a7-b3df-379d11fb26f6",
-        "coordX":"154.749",
-        "coordY":"46.536",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d609961e-b54f-4eac-b23a-af503ddbc213",
-        "coordX":"140.53",
-        "coordY":"46.536",
-        "width":"4.77000000000001",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f32c524e-8ecb-4c16-bf98-d98c66a3f6a6",
-        "coordX":"126.31",
-        "coordY":"46.536",
-        "width":"4.77099999999999",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"44587933-0823-43b3-9737-7b5fef95b4a1",
-        "coordX":"126.31",
-        "coordY":"23.526",
-        "width":"4.77099999999999",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a08c6050-8498-43b3-a173-2446c20805db",
-        "coordX":"140.53",
-        "coordY":"23.526",
-        "width":"4.77000000000001",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"cbb1d22f-04a0-4570-843e-e79eb265068e",
-        "coordX":"154.749",
-        "coordY":"23.526",
-        "width":"4.77100000000002",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5be0db07-b31f-41bd-90f6-9d8c3035a262",
-        "coordX":"207.359",
-        "coordY":"46.536",
-        "width":"4.77099999999999",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d95698a5-5d70-43ad-b25b-028906f084a0",
-        "coordX":"319.296",
-        "coordY":"90.689",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"3f86104c-0206-4263-97a9-58cac28b4110",
-        "coordX":"207.359",
-        "coordY":"90.689",
-        "width":"4.77099999999999",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"33474a5d-8746-4f07-8f58-387a7ad2eb18",
-        "coordX":"292.157",
-        "coordY":"90.689",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4cdaa8c0-5011-4b53-8597-1e2d6d1e8a0d",
-        "coordX":"263.622",
-        "coordY":"90.689",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"1a3ecbf6-680f-4f7c-97e1-996015098d1a",
-        "coordX":"235.59",
-        "coordY":"90.689",
-        "width":"4.77000000000001",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"987d1ff5-7e6c-4858-847e-d0e7e37c1eb6",
-        "coordX":"292.157",
-        "coordY":"46.536",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5b0bfc78-e7fa-4497-8395-834a9465469b",
-        "coordX":"263.622",
-        "coordY":"46.536",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"1ed7bb4d-6f79-4564-9ffc-ac447e99906c",
-        "coordX":"235.59",
-        "coordY":"46.536",
-        "width":"4.77000000000001",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7ba70493-d141-4e81-aa97-3189511a254a",
-        "coordX":"315.595",
-        "coordY":"23.526",
-        "width":"4.77099999999996",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0e8fd96e-d6bf-4888-9336-c75ed01522f0",
-        "coordX":"315.595",
-        "coordY":"72.522",
-        "width":"4.77099999999996",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8093ddab-a907-4c05-927a-fc77b37dad5a",
-        "coordX":"329.478",
-        "coordY":"72.522",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c409f821-4546-4b68-89c7-14e772a147fc",
-        "coordX":"329.478",
-        "coordY":"99.271",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"297c8a9b-1a1e-4874-b39e-b633d02700af",
-        "coordX":"319.296",
-        "coordY":"81.52",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c96f1c76-8ba1-4ff1-944e-3d3753ac8799",
-        "coordX":"329.478",
-        "coordY":"54.621",
-        "width":"4.76999999999998",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0db1f4e0-5057-4351-8e68-3d6ad26fb44f",
-        "coordX":"329.478",
-        "coordY":"23.526",
-        "width":"4.76999999999998",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"eb94448f-1e6d-4eef-a24c-f11b7ca8dc73",
-        "coordX":"323.04",
-        "coordY":"39.371",
-        "width":"3.76099999999997",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8b9781b1-c4c8-47c4-9e91-d52c699a8fc2",
-        "coordX":"454.235",
-        "coordY":"54.621",
-        "width":"4.77099999999996",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"86ff65c1-7914-430f-b62b-94426fa53a4f",
-        "coordX":"454.235",
-        "coordY":"39.006",
-        "width":"4.77099999999996",
-        "height":"4.567",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ab31375c-328f-46b5-9ae7-097dba7c2e87",
-        "coordX":"454.235",
-        "coordY":"28.322",
-        "width":"4.77099999999996",
-        "height":"4.566",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0291be59-aa64-440b-90fe-a74f6505d004",
-        "coordX":"454.235",
-        "coordY":"11.855",
-        "width":"4.77099999999996",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c6788c4a-063a-443a-8673-7e0587a3be34",
-        "coordX":"443.638",
-        "coordY":"11.855",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6c07dd18-1053-436a-95d5-3bc593434dbb",
-        "coordX":"434.958",
-        "coordY":"11.855",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"345096e6-8d7a-4914-8190-3dbfbaa1bd0d",
-        "coordX":"424.745",
-        "coordY":"11.855",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d4c7608c-e5be-40f2-a056-4650878efc25",
-        "coordX":"443.638",
-        "coordY":"46.087",
-        "width":"4.77100000000002",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ba926387-cc7d-46f2-80e7-78e42c71c21b",
-        "coordX":"434.958",
-        "coordY":"46.087",
-        "width":"4.76999999999998",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5e8f58a5-e2eb-4c6f-8436-e6507c38fde8",
-        "coordX":"424.745",
-        "coordY":"46.087",
-        "width":"4.77100000000002",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d7bffeab-bfc1-4e4c-8948-279636a363d0",
-        "coordX":"415.98",
-        "coordY":"46.087",
-        "width":"4.76999999999998",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e65baa19-8bf5-4237-8a81-774e843b2e6a",
-        "coordX":"415.98",
-        "coordY":"23.526",
-        "width":"4.76999999999998",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f26e1441-13cd-4ed1-884d-72a337b2913f",
-        "coordX":"418.332",
-        "coordY":"205.109",
-        "width":"4.57600000000002",
-        "height":"4.76999999999998",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"92d795dc-2490-4985-8b8f-3ad5957f32c2",
-        "coordX":"410.887",
-        "coordY":"214.405",
-        "width":"4.77100000000002",
-        "height":"4.77099999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"9e96b607-3096-49ca-983d-02fb97d197e4",
-        "coordX":"398.107",
-        "coordY":"214.405",
-        "width":"4.77099999999996",
-        "height":"4.77099999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"b38f6392-7c22-4b53-bd36-c8fc1ac3f4b0",
-        "coordX":"398.107",
-        "coordY":"150.933",
-        "width":"4.77099999999996",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"b3ca3af9-fa41-4a30-8293-eb9d1d27ec9d",
-        "coordX":"410.887",
-        "coordY":"150.933",
-        "width":"4.77100000000002",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a8465471-7cf7-4470-9f4e-8c2083efb668",
-        "coordX":"550.768",
-        "coordY":"175.357",
-        "width":"4.77099999999996",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f2edb9ec-8a59-4dcb-b8f1-189906ea116e",
-        "coordX":"520.357",
-        "coordY":"175.357",
-        "width":"4.77100000000007",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8d92cf04-dd36-4753-88dd-51777885a475",
-        "coordX":"477.881",
-        "coordY":"175.357",
-        "width":"4.77100000000002",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ce304a49-21c8-4281-8645-4510c926c0bd",
-        "coordX":"477.881",
-        "coordY":"223.939",
-        "width":"4.77100000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"349aaf78-2981-4132-bdb2-b8cf06e9c65b",
-        "coordX":"491.976",
-        "coordY":"223.939",
-        "width":"4.45600000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e3b873f2-7b51-49f7-b281-2612487fbf71",
-        "coordX":"502.55",
-        "coordY":"223.939",
-        "width":"4.45599999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"2cfd0cc7-e4b9-40f6-9922-95d232fe5b2d",
-        "coordX":"513.125",
-        "coordY":"223.939",
-        "width":"4.55700000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a0ff12dc-4042-456e-9616-88530749087c",
-        "coordX":"520.357",
-        "coordY":"193.774",
-        "width":"4.77100000000007",
-        "height":"29.492",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"dd559f26-12ec-4514-9e01-fc3f9c02d3f6",
-        "coordX":"527.803",
-        "coordY":"188.33",
-        "width":"6.23199999999997",
-        "height":"4.76999999999998",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0dc0ef82-407a-4dc1-9aea-f8c0602698b1",
-        "coordX":"536.71",
-        "coordY":"301.199",
-        "width":"4.77099999999996",
-        "height":"40.853",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a053351c-be8d-4851-9f28-38457330ca8c",
-        "coordX":"482.942",
-        "coordY":"241.64",
-        "width":"4.77100000000002",
-        "height":"100.412",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4ff36bd0-5404-4f50-a428-68c5072dfa00",
-        "coordX":"492.279",
-        "coordY":"241.64",
-        "width":"4.76999999999998",
-        "height":"100.412",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5f28686e-2685-43ea-bdf0-71f2e5c2d11e",
-        "coordX":"504.949",
-        "coordY":"246.411",
-        "width":"4.77100000000002",
-        "height":"95.641",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ee3752dc-2a4d-4c5e-b3dc-6bc83da4fd98",
-        "coordX":"520.357",
-        "coordY":"241.64",
-        "width":"4.77100000000007",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"86c98bbf-7af5-4279-9447-76eddc996344",
-        "coordX":"520.357",
-        "coordY":"301.199",
-        "width":"4.77100000000007",
-        "height":"40.853",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6d10e9de-1900-48de-9641-1f6c33ec2a5a",
-        "coordX":"393.741",
-        "coordY":"236.237",
-        "width":"4.97399999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"05cd5e8d-ad8e-42a7-a41c-959ebbb77eb8",
-        "coordX":"376.033",
-        "coordY":"236.237",
-        "width":"4.77099999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"2fc484db-fd56-48a5-9992-6d705855b419",
-        "coordX":"425.585",
-        "coordY":"230.485",
-        "width":"4.77000000000004",
-        "height":"5.75199999999998",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"094f3b86-6717-49c9-88ec-10d3e26e81be",
-        "coordX":"404.833",
-        "coordY":"236.237",
-        "width":"4.97399999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"12a4221f-bf16-43b6-a133-4f7ae23b5cc8",
-        "coordX":"463.23",
-        "coordY":"175.357",
-        "width":"4.77099999999996",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"73cb5b0b-a15f-45a2-8002-db2936bdd5a3",
-        "coordX":"425.585",
-        "coordY":"175.357",
-        "width":"4.77000000000004",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a8141bec-a3a8-4084-befa-d74b7c5a0aa7",
-        "coordX":"425.585",
-        "coordY":"199.446",
-        "width":"4.77000000000004",
-        "height":"4.69200000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"11fc59a9-761a-4b25-a2d8-08a7cffbce02",
-        "coordX":"425.585",
-        "coordY":"210.256",
-        "width":"4.77000000000004",
-        "height":"3.82499999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d0b581d2-dd79-487e-aafd-e01656558d90",
-        "coordX":"425.585",
-        "coordY":"220.2",
-        "width":"4.77000000000004",
-        "height":"4.167",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5e8853a6-8a9c-4284-94e4-fa724afbf664",
-        "coordX":"338.864",
-        "coordY":"276.167",
-        "width":"4.77100000000002",
-        "height":"65.885",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a7025a90-009f-4c2c-b0e3-a337e9253065",
-        "coordX":"409.398",
-        "coordY":"276.167",
-        "width":"4.77099999999996",
-        "height":"65.885",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6534d384-44c5-42ce-9414-71be1e673277",
-        "coordX":"376.033",
-        "coordY":"268.721",
-        "width":"4.77099999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"13600346-55d2-445c-96b5-683354b5e5e7",
-        "coordX":"393.741",
-        "coordY":"268.721",
-        "width":"4.97399999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"631c0d03-8150-41d0-9d93-25ba4b3848b4",
-        "coordX":"404.833",
-        "coordY":"268.721",
-        "width":"3.88999999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"09f14d2a-e44e-46db-acc6-5b62f29079dc",
-        "coordX":"414.841",
-        "coordY":"268.721",
-        "width":"4.67500000000001",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"b410262f-2c46-4e2c-93ed-7d3586b6762b",
-        "coordX":"425.634",
-        "coordY":"268.721",
-        "width":"4.61599999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6b58bd78-5e95-463e-94e9-18a3e2246926",
-        "coordX":"436.368",
-        "coordY":"268.721",
-        "width":"3.85500000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0018a697-06cf-4879-b3fe-7ccb2bdedf87",
-        "coordX":"446.341",
-        "coordY":"268.721",
-        "width":"4.84499999999997",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f5cbb0ae-ab65-4983-9f29-78f695e15c05",
-        "coordX":"463.23",
-        "coordY":"268.721",
-        "width":"4.77099999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"926500a9-b81a-45e3-9083-24eadbf3fcf7",
-        "coordX":"463.23",
-        "coordY":"244.458",
-        "width":"4.77099999999996",
-        "height":"5.19399999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e1aa5ec7-8cbd-4378-9e25-6f4009cef18d",
-        "coordX":"463.23",
-        "coordY":"233.146",
-        "width":"4.77099999999996",
-        "height":"5.19400000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4a986ebb-0c4b-4516-9f67-9fc621550ed1",
-        "coordX":"463.23",
-        "coordY":"221.834",
-        "width":"4.77099999999996",
-        "height":"5.19399999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"37ce4d2d-f3c3-464d-9ad5-3c67d3de9e0e",
-        "coordX":"463.23",
-        "coordY":"210.522",
-        "width":"4.77099999999996",
-        "height":"5.19400000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ca4df949-3037-47b1-af89-246b6d2091f8",
-        "coordX":"463.23",
-        "coordY":"199.21",
-        "width":"4.77099999999996",
-        "height":"5.19399999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"78679ed6-70f8-44ce-9b21-fb142ae07b4d",
-        "coordX":"428.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5f020a5b-fe4d-42f1-b056-23927233be2f",
-        "coordX":"436.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6130754f-891b-4cf2-a09c-eb3e5ec22632",
-        "coordX":"444.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"dbfd49da-a0b9-4a73-b22d-d83712f7c4ea",
-        "coordX":"452.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"72b6235e-fe54-4b7f-ad05-8991db6f1e89",
-        "coordX":"460.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"55551f3c-84e4-4ceb-8091-5a4b6dc399ec",
-        "coordX":"468.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"499715d3-5cde-4cd5-ac5e-92fe9eeb8ff6",
-        "coordX":"476.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5ff1544f-c2ea-402a-9df3-5c541e14b693",
-        "coordX":"484.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"90c5f63f-165e-4d38-bc8b-35d80f8f43c1",
-        "coordX":"492.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ab36c837-1463-432d-b4e5-732e330d2a0f",
-        "coordX":"500.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"082c3e8c-24ce-4df9-aa94-eec184b61c0a",
-        "coordX":"508.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ff3c3b0d-9d35-4b54-9dbf-30e992fa0fa7",
-        "coordX":"516.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"835ffc97-fe4d-4b3f-abd4-2609f832fd17",
-        "coordX":"524.024",
-        "coordY":"93.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"87af5cb4-3ea8-4dec-8db8-cdf0b09082e0",
-        "coordX":"428.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"fd734363-3b19-401c-9608-715edb8e617e",
-        "coordX":"524.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"017d343c-370d-46bf-b07d-7e53ff2814a0",
-        "coordX":"516.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8624a978-dfd5-4b0b-ad7b-26c879ce5274",
-        "coordX":"508.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8b59a9fb-e0dd-4b7c-8b97-d36e659abc0b",
-        "coordX":"500.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"edd251dc-a729-4736-9e61-b7adb90fc3a4",
-        "coordX":"492.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"2ff41c45-6c45-4bfe-9a99-deb5fc30ad92",
-        "coordX":"484.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"9e495158-e21c-43ff-9fff-cc5ec6b387fc",
-        "coordX":"476.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8b9fb433-df33-438c-b50c-ad48911ac9e5",
-        "coordX":"468.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7b3ef92d-b466-427c-801c-e45bf0247a1b",
-        "coordX":"460.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"038e93c5-5936-4fd0-a680-dc098f8d16e1",
-        "coordX":"452.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"499a7eea-e4ce-46c3-92ec-497d987519af",
-        "coordX":"444.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"9710c5fb-d821-4020-9aa2-6a5bdd50d782",
-        "coordX":"436.024",
-        "coordY":"105.512",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f3a82d1f-9f96-4a1f-a31f-16efdd74a625",
-        "coordX":"418.383",
-        "coordY":"130.416",
-        "width":"4.77199999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"db76fa63-7f3e-49d8-817c-91a24050fd59",
-        "coordX":"429.273",
-        "coordY":"130.416",
-        "width":"4.77199999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"be6f87d8-2ebc-46bf-b042-d3d3d956047e",
-        "coordX":"440.163",
-        "coordY":"130.416",
-        "width":"4.77199999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7a19b6b5-6ae6-4aef-8a44-68d54992e96d",
-        "coordX":"451.053",
-        "coordY":"130.416",
-        "width":"4.77199999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"1af4bb86-576d-413c-b08c-ccd363c21661",
-        "coordX":"461.943",
-        "coordY":"130.416",
-        "width":"4.77199999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"68d23f98-ebbc-4e3a-a2d8-4a68331d0915",
-        "coordX":"472.833",
-        "coordY":"130.416",
-        "width":"4.77199999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4f58a975-f235-4d97-9ab1-2ba5bc46b987",
-        "coordX":"483.723",
-        "coordY":"130.416",
-        "width":"4.77100000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"68f66ee2-813c-49df-b407-c0352913ad1a",
-        "coordX":"494.613",
-        "coordY":"130.416",
-        "width":"4.77100000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"47df3080-8876-498c-beec-007896ec481d",
-        "coordX":"505.503",
-        "coordY":"130.416",
-        "width":"4.77100000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"caa8387e-793f-4e62-9874-cc940df402fa",
-        "coordX":"521.062",
-        "coordY":"130.416",
-        "width":"4.77099999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a0d2d62c-af65-4654-8d25-3248dbadd75a",
-        "coordX":"521.062",
-        "coordY":"115.908",
-        "width":"4.77099999999996",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"67df4a30-54c6-4017-b092-78917fbbf6a0",
-        "coordX":"389.96",
-        "coordY":"72.522",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"629c7d4b-f1ac-4277-a7b5-bd36a2a91f2f",
-        "coordX":"389.96",
-        "coordY":"81.52",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"95859b68-4085-4ce1-8f24-1e9d211fb16e",
-        "coordX":"407.072",
-        "coordY":"72.522",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"83aa6e22-2216-4b03-aeaf-f486b5751acb",
-        "coordX":"407.072",
-        "coordY":"81.52",
-        "width":"4.77100000000002",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"cde7adf8-df7d-47ff-acb7-3c4d3070e33e",
-        "coordX":"429.67",
-        "coordY":"81.52",
-        "width":"4.76999999999998",
-        "height":"4.771",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7220bb5a-8c49-4afa-af5d-09feead346dd",
-        "coordX":"383.467",
-        "coordY":"121.851",
-        "width":"3.81800000000004",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"747559f7-36a0-4671-b349-d1c5ad51c0f2",
-        "coordX":"389.96",
-        "coordY":"130.416",
-        "width":"4.77100000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8e9f089a-291f-4849-84ae-0a4671ff93a8",
-        "coordX":"407.072",
-        "coordY":"115.908",
-        "width":"4.77100000000002",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"471d4479-9d6c-4884-8753-62523ca75040",
-        "coordX":"323.558",
-        "coordY":"130.416",
-        "width":"25.213",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a470cfe1-0764-4544-ae48-a25c9e26885d",
-        "coordX":"376.021",
-        "coordY":"130.416",
-        "width":"4.77099999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c3bf00ad-cdb0-4c7e-8c70-5d8899ebef26",
-        "coordX":"376.021",
-        "coordY":"111.173",
-        "width":"4.77099999999996",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"beaceaff-574a-4d1a-8dc8-a149615c34ea",
-        "coordX":"245.434",
-        "coordY":"130.416",
-        "width":"4.47499999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"3edd5751-ee53-4657-880c-6e4a83915d0f",
-        "coordX":"256.027",
-        "coordY":"130.416",
-        "width":"4.476",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d38bed31-6f25-4d25-889d-5d0cd8b68af9",
-        "coordX":"266.621",
-        "coordY":"130.416",
-        "width":"29.633",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"9de7492b-1eb7-42ca-99a9-c293add669ab",
-        "coordX":"302.372",
-        "coordY":"130.416",
-        "width":"4.47499999999997",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"10f4f8c3-8699-45d6-b2a4-bc56b2c5e367",
-        "coordX":"312.965",
-        "coordY":"130.416",
-        "width":"4.47500000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"799d507c-a920-473a-99c9-ba545d8665a1",
-        "coordX":"192.405",
-        "coordY":"130.416",
-        "width":"4.77000000000001",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"dd02a47a-8b6a-4d14-bb7a-2a69eb66d361",
-        "coordX":"192.405",
-        "coordY":"111.173",
-        "width":"4.77000000000001",
-        "height":"4.77",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7f4b4a9a-58dd-4d29-9153-d43dfa54e7c4",
-        "coordX":"214.1",
-        "coordY":"145.451",
-        "width":"4.77000000000001",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"41753508-d07e-4389-8b94-7ffed7e29b74",
-        "coordX":"120.126",
-        "coordY":"123.801",
-        "width":"3.917",
-        "height":"19.497",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"087a3af3-17a3-44ba-a744-0cec7217c25d",
-        "coordX":"130.933",
-        "coordY":"123.801",
-        "width":"3.917",
-        "height":"18.03",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4dea494a-7bc9-4d4b-ad32-eb14b7a63e8b",
-        "coordX":"134.85",
-        "coordY":"127.422",
-        "width":"5.316",
-        "height":"9.785",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"2f174b74-8fde-4a77-91f0-33d1dd716158",
-        "coordX":"78.854",
-        "coordY":"115.756",
-        "width":"62.217",
-        "height":"6.741",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"909d209c-e1cb-451f-aaf7-80457d609299",
-        "coordX":"134.859",
-        "coordY":"105.029",
-        "width":"6.18199999999999",
-        "height":"9.375",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"aca23fb1-8320-4a29-b376-da37b3f2b836",
-        "coordX":"37.58",
-        "coordY":"112.647",
-        "width":"31.573",
-        "height":"14.206",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"feeee153-fed0-4b08-a2cd-5adb3bce29e4",
-        "coordX":"37.58",
-        "coordY":"133.126",
-        "width":"31.573",
-        "height":"14.207",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"342e1211-548d-4cf6-a9be-64222adbbc24",
-        "coordX":"78.927",
-        "coordY":"123.801",
-        "width":"3.91699999999999",
-        "height":"18.193",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"139a2c23-7784-42d9-9169-4f4d85beb8ff",
-        "coordX":"85.02",
-        "coordY":"123.801",
-        "width":"7.54300000000001",
-        "height":"21.309",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5185a060-5ab6-4015-b97a-b04eb67427c4",
-        "coordX":"97.495",
-        "coordY":"123.801",
-        "width":"3.917",
-        "height":"18.193",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5e62e783-1972-4d62-a141-00657d729255",
-        "coordX":"108.665",
-        "coordY":"123.801",
-        "width":"3.91699999999999",
-        "height":"18.193",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0d1c5acb-e0c7-42ea-8b25-282a4d2113be",
-        "coordX":"12.151",
-        "coordY":"59.366",
-        "width":"14.38",
-        "height":"3.145",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"42aa5092-1bf7-45ab-b63a-7ecddc8bc37f",
-        "coordX":"12.083",
-        "coordY":"64.111",
-        "width":"12.0",
-        "height":"17.383",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4997ff78-8579-4f86-a749-6b311a0823be",
-        "coordX":"26.319",
-        "coordY":"66.505",
-        "width":"2.965",
-        "height":"11.739",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"52019e0c-45a2-420d-80c4-4f55d39045ea",
-        "coordX":"33.082",
-        "coordY":"58.036",
-        "width":"6.299",
-        "height":"20.208",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"57bf8fa8-855a-4165-a969-0cc369aac1cb",
-        "coordX":"43.55",
-        "coordY":"58.036",
-        "width":"6.299",
-        "height":"20.208",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ee58e561-a213-4a42-8cb8-5e8a1b46b54c",
-        "coordX":"54.471",
-        "coordY":"58.036",
-        "width":"6.29900000000001",
-        "height":"20.208",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"1546bd2d-32cc-4942-98d1-1418ff1d7f82",
-        "coordX":"61.407",
-        "coordY":"76.39",
-        "width":"8.524",
-        "height":"5.129",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6fd57c86-01a3-4bfc-982b-252583026e8d",
-        "coordX":"336.757",
-        "coordY":"145.11",
-        "width":"4.76999999999998",
-        "height":"4.76999999999998",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"75373c3f-b1af-4a60-a11e-d9a5de6ea9a2",
-        "coordX":"362.133",
-        "coordY":"145.11",
-        "width":"4.77000000000004",
-        "height":"4.76999999999998",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"40d23c01-d4cc-4743-97f8-5d9d76075bcd",
-        "coordX":"309.97",
-        "coordY":"203.325",
-        "width":"4.0",
-        "height":"4.0",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"401b8b6d-9c7d-451e-b25c-ead01452fc64",
-        "coordX":"269.97",
-        "coordY":"199.762",
-        "width":"4.0",
-        "height":"3.56299999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"52337386-2861-412b-8cf5-bbf91e820544",
-        "coordX":"277.97",
-        "coordY":"199.762",
-        "width":"4.0",
-        "height":"3.56299999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a891f7dc-4592-459e-b9e2-0a7d77b39e09",
-        "coordX":"285.97",
-        "coordY":"199.762",
-        "width":"4.0",
-        "height":"3.56299999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5f94c4cf-7d04-466d-ab8f-3546457113ba",
-        "coordX":"293.97",
-        "coordY":"199.762",
-        "width":"4.0",
-        "height":"3.56299999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"42303b24-d76b-4d8b-b674-38d7a8460a6d",
-        "coordX":"301.97",
-        "coordY":"199.762",
-        "width":"4.0",
-        "height":"3.56299999999999",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"474c01d3-b4ac-4204-a99f-e2ff9ae3fa2a",
-        "coordX":"280.594",
-        "coordY":"217.75",
-        "width":"4.84800000000001",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a85ac607-64f2-46f5-b358-fe9e0a86512e",
-        "coordX":"291.561",
-        "coordY":"217.75",
-        "width":"4.84800000000001",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"fac47838-6128-4042-aee4-0dda33a86625",
-        "coordX":"302.527",
-        "coordY":"217.75",
-        "width":"4.54200000000003",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a898cbde-d87f-445a-a821-4ac141ab1d9b",
-        "coordX":"313.187",
-        "coordY":"217.75",
-        "width":"4.029",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"df5da284-a833-4a8a-857c-b420325382cd",
-        "coordX":"336.757",
-        "coordY":"217.75",
-        "width":"4.76999999999998",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"fc2bad50-5960-4aec-af31-c4e1b7fb8e17",
-        "coordX":"307.744",
-        "coordY":"207.325",
-        "width":"4.76999999999998",
-        "height":"7.74900000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"aed89c1f-cca0-408b-a59d-c608f39b25be",
-        "coordX":"217.048",
-        "coordY":"217.75",
-        "width":"4.84799999999998",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c5557fbe-d745-48b3-b0a9-32991c7a15ab",
-        "coordX":"228.014",
-        "coordY":"217.75",
-        "width":"4.84899999999999",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"fa8ba53f-f33b-4d5a-a37c-551a7d1b5291",
-        "coordX":"238.981",
-        "coordY":"217.75",
-        "width":"4.541",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4822baf4-af67-4ed6-b1a7-b46277181f3d",
-        "coordX":"249.641",
-        "coordY":"217.75",
-        "width":"4.02800000000002",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"78775322-d205-4bc3-8cd7-70e1d3070df0",
-        "coordX":"259.787",
-        "coordY":"217.75",
-        "width":"4.029",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"521186c2-a5ae-466f-816f-c52ccf4ec7ab",
-        "coordX":"269.934",
-        "coordY":"217.75",
-        "width":"4.54199999999997",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f41643fd-dc3e-423d-8a14-32d26b59ab73",
-        "coordX":"127.576",
-        "coordY":"217.75",
-        "width":"30.774",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"77f5cc72-1ed2-45c9-a69f-cb7829eec83b",
-        "coordX":"164.468",
-        "coordY":"217.75",
-        "width":"4.84900000000002",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"9a2f8242-22a2-4e0d-9215-8cd3b2cce400",
-        "coordX":"175.435",
-        "coordY":"217.75",
-        "width":"4.541",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"cfb7d704-35c2-4067-8e81-07c301e27631",
-        "coordX":"186.094",
-        "coordY":"217.75",
-        "width":"4.029",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d1e86000-f6ba-43b1-913c-5d1348506c9b",
-        "coordX":"196.241",
-        "coordY":"217.75",
-        "width":"4.029",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"08a685ad-6163-467b-ae6c-f13dcab9a0e9",
-        "coordX":"206.388",
-        "coordY":"217.75",
-        "width":"4.541",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"507964cc-e7e3-4d59-9c69-95364847b73c",
-        "coordX":"98.309",
-        "coordY":"253.946",
-        "width":"4.771",
-        "height":"4.542",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8f7b7089-f5db-4b74-a33b-a63d3d58a6dc",
-        "coordX":"98.309",
-        "coordY":"243.287",
-        "width":"4.771",
-        "height":"4.541",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c5c08bdc-6a43-4c2c-bc8c-55efef49fd23",
-        "coordX":"98.309",
-        "coordY":"231.974",
-        "width":"4.771",
-        "height":"5.19500000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"5bf184d7-073a-4d84-86e6-0565a246a7e3",
-        "coordX":"98.309",
-        "coordY":"217.75",
-        "width":"4.771",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"9ff136c1-f26c-4bb8-83aa-14ac9cb1a3c0",
-        "coordX":"116.609",
-        "coordY":"217.75",
-        "width":"4.849",
-        "height":"4.77000000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"63cfa072-1074-473a-b9c0-40317e8f2f03",
-        "coordX":"222.055",
-        "coordY":"276.167",
-        "width":"4.76999999999998",
-        "height":"65.885",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ad353d20-8142-482a-9745-9bc8b02f7f07",
-        "coordX":"232.844",
-        "coordY":"282.708",
-        "width":"4.77100000000002",
-        "height":"4.77099999999996",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"19e9e4f4-3958-4b78-b82a-827e78f853bb",
-        "coordX":"232.844",
-        "coordY":"295.854",
-        "width":"4.77100000000002",
-        "height":"4.77000000000004",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e468fe3e-3346-4581-aa10-a409cd6bbeb0",
-        "coordX":"275.55",
-        "coordY":"295.854",
-        "width":"4.77100000000002",
-        "height":"4.77000000000004",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"532b756d-c173-463e-8594-01e601a84b55",
-        "coordX":"275.55",
-        "coordY":"282.708",
-        "width":"4.77100000000002",
-        "height":"4.77099999999996",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"2a7c9a7c-8b3d-43e2-81ed-4233e01bf682",
-        "coordX":"344.308",
-        "coordY":"268.721",
-        "width":"4.50100000000003",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"66883111-dfe2-44da-94f2-cf7175312d1e",
-        "coordX":"362.133",
-        "coordY":"268.721",
-        "width":"4.77000000000004",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f64892f1-04cc-4d57-9c96-0361703bb632",
-        "coordX":"362.133",
-        "coordY":"243.831",
-        "width":"4.77000000000004",
-        "height":"7.35400000000001",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"92b05315-f1a1-4372-8764-b5654212f614",
-        "coordX":"362.133",
-        "coordY":"231.915",
-        "width":"4.77000000000004",
-        "height":"5.797",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e63e3a91-ee3a-4f26-8ebb-1af42375349f",
-        "coordX":"303.242",
-        "coordY":"268.721",
-        "width":"3.78299999999996",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c2db3e18-1526-48dc-bec9-912bef921ba6",
-        "coordX":"313.143",
-        "coordY":"268.721",
-        "width":"3.78400000000005",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"ad4b8978-bada-4bae-94c9-76455c3350af",
-        "coordX":"323.045",
-        "coordY":"268.721",
-        "width":"4.72499999999997",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"7af3d73b-43a0-424f-b5a8-f73f8bcd33d0",
-        "coordX":"333.888",
-        "coordY":"268.721",
-        "width":"4.30100000000004",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"740c4dfe-8c54-4826-b92e-f5a5d7ef0ecc",
-        "coordX":"237.307",
-        "coordY":"268.721",
-        "width":"5.46700000000001",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d5443b67-9442-4eea-b844-a43d41c81333",
-        "coordX":"248.892",
-        "coordY":"268.721",
-        "width":"5.46600000000001",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"16a2bf14-b970-4d6b-a57b-4e030baeb760",
-        "coordX":"260.476",
-        "coordY":"268.721",
-        "width":"5.54700000000003",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"8b7644a6-5fcb-445f-849c-9d656bfdc0ae",
-        "coordX":"272.141",
-        "coordY":"268.721",
-        "width":"5.17899999999997",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"95e9fff2-39e0-4bef-870e-b996759b9411",
-        "coordX":"283.438",
-        "coordY":"268.721",
-        "width":"3.78300000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"81adebf6-2863-4b42-94dd-f93a014ebd88",
-        "coordX":"293.34",
-        "coordY":"268.721",
-        "width":"3.78300000000002",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"08e9dfb1-ba0c-4f53-885b-a11b0f4d72e3",
-        "coordX":"158.681",
-        "coordY":"268.721",
-        "width":"21.174",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6f5e1a3c-9435-49ac-a759-ed7d499a8488",
-        "coordX":"185.973",
-        "coordY":"268.721",
-        "width":"4.91899999999998",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"d08117b6-d3a2-4b66-ba5a-b3ddac09a989",
-        "coordX":"197.01",
-        "coordY":"268.721",
-        "width":"4.751",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"598780dc-8a48-4e81-b3ac-4915192e6752",
-        "coordX":"207.879",
-        "coordY":"268.721",
-        "width":"3.691",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e6d314dc-8a66-4f06-8d5e-1e6a2c73255f",
-        "coordX":"217.689",
-        "coordY":"268.721",
-        "width":"3.691",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"04f218b4-2312-46c3-bfd6-49d4a0916679",
-        "coordX":"227.498",
-        "coordY":"268.721",
-        "width":"3.691",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"27cc0591-34ca-403c-9eba-8831cd62fbfa",
-        "coordX":"98.309",
-        "coordY":"268.721",
-        "width":"4.771",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"4e479844-f762-4c9f-9191-f452269b0e18",
-        "coordX":"116.403",
-        "coordY":"268.721",
-        "width":"4.49799999999999",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"26addce7-166b-4054-8fc9-d62c4f4f1f50",
-        "coordX":"127.019",
-        "coordY":"268.721",
-        "width":"4.22299999999998",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"e9d42ffb-80c0-4b66-a73a-3d5d3f914984",
-        "coordX":"137.36",
-        "coordY":"268.721",
-        "width":"4.333",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"f807cedf-07c2-4292-b5f5-ad5663b8794e",
-        "coordX":"147.811",
-        "coordY":"268.721",
-        "width":"4.75199999999998",
-        "height":"4.77100000000002",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"c568c685-e113-43bd-b5d5-b093c4a7ffcf",
-        "coordX":"95.857",
-        "coordY":"282.708",
-        "width":"4.77",
-        "height":"4.77099999999996",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"fc73a02f-436f-4cda-9c30-ac85c26aea15",
-        "coordX":"95.857",
-        "coordY":"295.854",
-        "width":"4.77",
-        "height":"4.77000000000004",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"6cf8ae65-c6be-407c-8522-948552c2fb5f",
-        "coordX":"159.37",
-        "coordY":"295.854",
-        "width":"4.77099999999999",
-        "height":"4.77000000000004",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"0b9be53a-512b-4f53-9560-e86326dd0423",
-        "coordX":"159.37",
-        "coordY":"282.708",
-        "width":"4.77099999999999",
-        "height":"4.77099999999996",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"a3f8df21-6dfc-43a1-8f96-25b2bc87c872",
-        "coordX":"81.613",
-        "coordY":"257.41",
-        "width":"4.77",
-        "height":"24.529",
-        "conveyor":"false"
-    },
-    {
-        "deviceNum":"MJK50027",
-        "stationNum":"3763f6c7-4656-4227-acd9-509c52034f3f",
-        "coordX":"81.613",
-        "coordY":"288.057",
-        "width":"4.77",
-        "height":"4.90299999999996",
-        "conveyor":"false"
+        "deviceNum": "MJK50027",
+        "stationNum": "541f6eda-6320-4e3a-b12b-0f54d7f1c747",
+        "coordX": "534.035",
+        "coordY": "287.406",
+        "width": "10.121",
+        "height": "13.793",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5f7c370f-6626-44cd-a17a-d59662f90ce8",
+        "coordX": "376.021",
+        "coordY": "115.943",
+        "width": "4.77099999999996",
+        "height": "5.23400000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d0bb8935-bd87-47aa-89d1-7e45deeea6d0",
+        "coordX": "517.682",
+        "coordY": "287.406",
+        "width": "10.121",
+        "height": "13.793",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7bb3db83-402c-44a7-b3df-379d11fb26f6",
+        "coordX": "154.749",
+        "coordY": "46.536",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d609961e-b54f-4eac-b23a-af503ddbc213",
+        "coordX": "140.53",
+        "coordY": "46.536",
+        "width": "4.77000000000001",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f32c524e-8ecb-4c16-bf98-d98c66a3f6a6",
+        "coordX": "126.31",
+        "coordY": "46.536",
+        "width": "4.77099999999999",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "44587933-0823-43b3-9737-7b5fef95b4a1",
+        "coordX": "126.31",
+        "coordY": "23.526",
+        "width": "4.77099999999999",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a08c6050-8498-43b3-a173-2446c20805db",
+        "coordX": "140.53",
+        "coordY": "23.526",
+        "width": "4.77000000000001",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "cbb1d22f-04a0-4570-843e-e79eb265068e",
+        "coordX": "154.749",
+        "coordY": "23.526",
+        "width": "4.77100000000002",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5be0db07-b31f-41bd-90f6-9d8c3035a262",
+        "coordX": "207.359",
+        "coordY": "46.536",
+        "width": "4.77099999999999",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d95698a5-5d70-43ad-b25b-028906f084a0",
+        "coordX": "319.296",
+        "coordY": "90.689",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "3f86104c-0206-4263-97a9-58cac28b4110",
+        "coordX": "207.359",
+        "coordY": "90.689",
+        "width": "4.77099999999999",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "33474a5d-8746-4f07-8f58-387a7ad2eb18",
+        "coordX": "292.157",
+        "coordY": "90.689",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4cdaa8c0-5011-4b53-8597-1e2d6d1e8a0d",
+        "coordX": "263.622",
+        "coordY": "90.689",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "1a3ecbf6-680f-4f7c-97e1-996015098d1a",
+        "coordX": "235.59",
+        "coordY": "90.689",
+        "width": "4.77000000000001",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "987d1ff5-7e6c-4858-847e-d0e7e37c1eb6",
+        "coordX": "292.157",
+        "coordY": "46.536",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5b0bfc78-e7fa-4497-8395-834a9465469b",
+        "coordX": "263.622",
+        "coordY": "46.536",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "1ed7bb4d-6f79-4564-9ffc-ac447e99906c",
+        "coordX": "235.59",
+        "coordY": "46.536",
+        "width": "4.77000000000001",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7ba70493-d141-4e81-aa97-3189511a254a",
+        "coordX": "315.595",
+        "coordY": "23.526",
+        "width": "4.77099999999996",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0e8fd96e-d6bf-4888-9336-c75ed01522f0",
+        "coordX": "315.595",
+        "coordY": "72.522",
+        "width": "4.77099999999996",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8093ddab-a907-4c05-927a-fc77b37dad5a",
+        "coordX": "329.478",
+        "coordY": "72.522",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c409f821-4546-4b68-89c7-14e772a147fc",
+        "coordX": "329.478",
+        "coordY": "99.271",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "297c8a9b-1a1e-4874-b39e-b633d02700af",
+        "coordX": "319.296",
+        "coordY": "81.52",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c96f1c76-8ba1-4ff1-944e-3d3753ac8799",
+        "coordX": "329.478",
+        "coordY": "54.621",
+        "width": "4.76999999999998",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0db1f4e0-5057-4351-8e68-3d6ad26fb44f",
+        "coordX": "329.478",
+        "coordY": "23.526",
+        "width": "4.76999999999998",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "eb94448f-1e6d-4eef-a24c-f11b7ca8dc73",
+        "coordX": "323.04",
+        "coordY": "39.371",
+        "width": "3.76099999999997",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8b9781b1-c4c8-47c4-9e91-d52c699a8fc2",
+        "coordX": "454.235",
+        "coordY": "54.621",
+        "width": "4.77099999999996",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "86ff65c1-7914-430f-b62b-94426fa53a4f",
+        "coordX": "454.235",
+        "coordY": "39.006",
+        "width": "4.77099999999996",
+        "height": "4.567",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ab31375c-328f-46b5-9ae7-097dba7c2e87",
+        "coordX": "454.235",
+        "coordY": "28.322",
+        "width": "4.77099999999996",
+        "height": "4.566",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0291be59-aa64-440b-90fe-a74f6505d004",
+        "coordX": "454.235",
+        "coordY": "11.855",
+        "width": "4.77099999999996",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c6788c4a-063a-443a-8673-7e0587a3be34",
+        "coordX": "443.638",
+        "coordY": "11.855",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6c07dd18-1053-436a-95d5-3bc593434dbb",
+        "coordX": "434.958",
+        "coordY": "11.855",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "345096e6-8d7a-4914-8190-3dbfbaa1bd0d",
+        "coordX": "424.745",
+        "coordY": "11.855",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d4c7608c-e5be-40f2-a056-4650878efc25",
+        "coordX": "443.638",
+        "coordY": "46.087",
+        "width": "4.77100000000002",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ba926387-cc7d-46f2-80e7-78e42c71c21b",
+        "coordX": "434.958",
+        "coordY": "46.087",
+        "width": "4.76999999999998",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5e8f58a5-e2eb-4c6f-8436-e6507c38fde8",
+        "coordX": "424.745",
+        "coordY": "46.087",
+        "width": "4.77100000000002",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d7bffeab-bfc1-4e4c-8948-279636a363d0",
+        "coordX": "415.98",
+        "coordY": "46.087",
+        "width": "4.76999999999998",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e65baa19-8bf5-4237-8a81-774e843b2e6a",
+        "coordX": "415.98",
+        "coordY": "23.526",
+        "width": "4.76999999999998",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f26e1441-13cd-4ed1-884d-72a337b2913f",
+        "coordX": "418.332",
+        "coordY": "205.109",
+        "width": "4.57600000000002",
+        "height": "4.76999999999998",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "92d795dc-2490-4985-8b8f-3ad5957f32c2",
+        "coordX": "410.887",
+        "coordY": "214.405",
+        "width": "4.77100000000002",
+        "height": "4.77099999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "9e96b607-3096-49ca-983d-02fb97d197e4",
+        "coordX": "398.107",
+        "coordY": "214.405",
+        "width": "4.77099999999996",
+        "height": "4.77099999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "b38f6392-7c22-4b53-bd36-c8fc1ac3f4b0",
+        "coordX": "398.107",
+        "coordY": "150.933",
+        "width": "4.77099999999996",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "b3ca3af9-fa41-4a30-8293-eb9d1d27ec9d",
+        "coordX": "410.887",
+        "coordY": "150.933",
+        "width": "4.77100000000002",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a8465471-7cf7-4470-9f4e-8c2083efb668",
+        "coordX": "550.768",
+        "coordY": "175.357",
+        "width": "4.77099999999996",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f2edb9ec-8a59-4dcb-b8f1-189906ea116e",
+        "coordX": "520.357",
+        "coordY": "175.357",
+        "width": "4.77100000000007",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8d92cf04-dd36-4753-88dd-51777885a475",
+        "coordX": "477.881",
+        "coordY": "175.357",
+        "width": "4.77100000000002",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ce304a49-21c8-4281-8645-4510c926c0bd",
+        "coordX": "477.881",
+        "coordY": "223.939",
+        "width": "4.77100000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "349aaf78-2981-4132-bdb2-b8cf06e9c65b",
+        "coordX": "491.976",
+        "coordY": "223.939",
+        "width": "4.45600000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e3b873f2-7b51-49f7-b281-2612487fbf71",
+        "coordX": "502.55",
+        "coordY": "223.939",
+        "width": "4.45599999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "2cfd0cc7-e4b9-40f6-9922-95d232fe5b2d",
+        "coordX": "513.125",
+        "coordY": "223.939",
+        "width": "4.55700000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a0ff12dc-4042-456e-9616-88530749087c",
+        "coordX": "520.357",
+        "coordY": "193.774",
+        "width": "4.77100000000007",
+        "height": "29.492",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "dd559f26-12ec-4514-9e01-fc3f9c02d3f6",
+        "coordX": "527.803",
+        "coordY": "188.33",
+        "width": "6.23199999999997",
+        "height": "4.76999999999998",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0dc0ef82-407a-4dc1-9aea-f8c0602698b1",
+        "coordX": "536.71",
+        "coordY": "301.199",
+        "width": "4.77099999999996",
+        "height": "40.853",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a053351c-be8d-4851-9f28-38457330ca8c",
+        "coordX": "482.942",
+        "coordY": "241.64",
+        "width": "4.77100000000002",
+        "height": "100.412",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4ff36bd0-5404-4f50-a428-68c5072dfa00",
+        "coordX": "492.279",
+        "coordY": "241.64",
+        "width": "4.76999999999998",
+        "height": "100.412",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5f28686e-2685-43ea-bdf0-71f2e5c2d11e",
+        "coordX": "504.949",
+        "coordY": "246.411",
+        "width": "4.77100000000002",
+        "height": "95.641",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ee3752dc-2a4d-4c5e-b3dc-6bc83da4fd98",
+        "coordX": "520.357",
+        "coordY": "241.64",
+        "width": "4.77100000000007",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "86c98bbf-7af5-4279-9447-76eddc996344",
+        "coordX": "520.357",
+        "coordY": "301.199",
+        "width": "4.77100000000007",
+        "height": "40.853",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6d10e9de-1900-48de-9641-1f6c33ec2a5a",
+        "coordX": "393.741",
+        "coordY": "236.237",
+        "width": "4.97399999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "05cd5e8d-ad8e-42a7-a41c-959ebbb77eb8",
+        "coordX": "376.033",
+        "coordY": "236.237",
+        "width": "4.77099999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "2fc484db-fd56-48a5-9992-6d705855b419",
+        "coordX": "425.585",
+        "coordY": "230.485",
+        "width": "4.77000000000004",
+        "height": "5.75199999999998",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "094f3b86-6717-49c9-88ec-10d3e26e81be",
+        "coordX": "404.833",
+        "coordY": "236.237",
+        "width": "4.97399999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "12a4221f-bf16-43b6-a133-4f7ae23b5cc8",
+        "coordX": "463.23",
+        "coordY": "175.357",
+        "width": "4.77099999999996",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "73cb5b0b-a15f-45a2-8002-db2936bdd5a3",
+        "coordX": "425.585",
+        "coordY": "175.357",
+        "width": "4.77000000000004",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a8141bec-a3a8-4084-befa-d74b7c5a0aa7",
+        "coordX": "425.585",
+        "coordY": "199.446",
+        "width": "4.77000000000004",
+        "height": "4.69200000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "11fc59a9-761a-4b25-a2d8-08a7cffbce02",
+        "coordX": "425.585",
+        "coordY": "210.256",
+        "width": "4.77000000000004",
+        "height": "3.82499999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d0b581d2-dd79-487e-aafd-e01656558d90",
+        "coordX": "425.585",
+        "coordY": "220.2",
+        "width": "4.77000000000004",
+        "height": "4.167",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5e8853a6-8a9c-4284-94e4-fa724afbf664",
+        "coordX": "338.864",
+        "coordY": "276.167",
+        "width": "4.77100000000002",
+        "height": "65.885",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a7025a90-009f-4c2c-b0e3-a337e9253065",
+        "coordX": "409.398",
+        "coordY": "276.167",
+        "width": "4.77099999999996",
+        "height": "65.885",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6534d384-44c5-42ce-9414-71be1e673277",
+        "coordX": "376.033",
+        "coordY": "268.721",
+        "width": "4.77099999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "13600346-55d2-445c-96b5-683354b5e5e7",
+        "coordX": "393.741",
+        "coordY": "268.721",
+        "width": "4.97399999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "631c0d03-8150-41d0-9d93-25ba4b3848b4",
+        "coordX": "404.833",
+        "coordY": "268.721",
+        "width": "3.88999999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "09f14d2a-e44e-46db-acc6-5b62f29079dc",
+        "coordX": "414.841",
+        "coordY": "268.721",
+        "width": "4.67500000000001",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "b410262f-2c46-4e2c-93ed-7d3586b6762b",
+        "coordX": "425.634",
+        "coordY": "268.721",
+        "width": "4.61599999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6b58bd78-5e95-463e-94e9-18a3e2246926",
+        "coordX": "436.368",
+        "coordY": "268.721",
+        "width": "3.85500000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0018a697-06cf-4879-b3fe-7ccb2bdedf87",
+        "coordX": "446.341",
+        "coordY": "268.721",
+        "width": "4.84499999999997",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f5cbb0ae-ab65-4983-9f29-78f695e15c05",
+        "coordX": "463.23",
+        "coordY": "268.721",
+        "width": "4.77099999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "926500a9-b81a-45e3-9083-24eadbf3fcf7",
+        "coordX": "463.23",
+        "coordY": "244.458",
+        "width": "4.77099999999996",
+        "height": "5.19399999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e1aa5ec7-8cbd-4378-9e25-6f4009cef18d",
+        "coordX": "463.23",
+        "coordY": "233.146",
+        "width": "4.77099999999996",
+        "height": "5.19400000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4a986ebb-0c4b-4516-9f67-9fc621550ed1",
+        "coordX": "463.23",
+        "coordY": "221.834",
+        "width": "4.77099999999996",
+        "height": "5.19399999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "37ce4d2d-f3c3-464d-9ad5-3c67d3de9e0e",
+        "coordX": "463.23",
+        "coordY": "210.522",
+        "width": "4.77099999999996",
+        "height": "5.19400000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ca4df949-3037-47b1-af89-246b6d2091f8",
+        "coordX": "463.23",
+        "coordY": "199.21",
+        "width": "4.77099999999996",
+        "height": "5.19399999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "78679ed6-70f8-44ce-9b21-fb142ae07b4d",
+        "coordX": "428.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5f020a5b-fe4d-42f1-b056-23927233be2f",
+        "coordX": "436.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6130754f-891b-4cf2-a09c-eb3e5ec22632",
+        "coordX": "444.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "dbfd49da-a0b9-4a73-b22d-d83712f7c4ea",
+        "coordX": "452.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "72b6235e-fe54-4b7f-ad05-8991db6f1e89",
+        "coordX": "460.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "55551f3c-84e4-4ceb-8091-5a4b6dc399ec",
+        "coordX": "468.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "499715d3-5cde-4cd5-ac5e-92fe9eeb8ff6",
+        "coordX": "476.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5ff1544f-c2ea-402a-9df3-5c541e14b693",
+        "coordX": "484.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "90c5f63f-165e-4d38-bc8b-35d80f8f43c1",
+        "coordX": "492.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ab36c837-1463-432d-b4e5-732e330d2a0f",
+        "coordX": "500.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "082c3e8c-24ce-4df9-aa94-eec184b61c0a",
+        "coordX": "508.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ff3c3b0d-9d35-4b54-9dbf-30e992fa0fa7",
+        "coordX": "516.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "835ffc97-fe4d-4b3f-abd4-2609f832fd17",
+        "coordX": "524.024",
+        "coordY": "93.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "87af5cb4-3ea8-4dec-8db8-cdf0b09082e0",
+        "coordX": "428.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "fd734363-3b19-401c-9608-715edb8e617e",
+        "coordX": "524.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "017d343c-370d-46bf-b07d-7e53ff2814a0",
+        "coordX": "516.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8624a978-dfd5-4b0b-ad7b-26c879ce5274",
+        "coordX": "508.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8b59a9fb-e0dd-4b7c-8b97-d36e659abc0b",
+        "coordX": "500.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "edd251dc-a729-4736-9e61-b7adb90fc3a4",
+        "coordX": "492.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "2ff41c45-6c45-4bfe-9a99-deb5fc30ad92",
+        "coordX": "484.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "9e495158-e21c-43ff-9fff-cc5ec6b387fc",
+        "coordX": "476.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8b9fb433-df33-438c-b50c-ad48911ac9e5",
+        "coordX": "468.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7b3ef92d-b466-427c-801c-e45bf0247a1b",
+        "coordX": "460.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "038e93c5-5936-4fd0-a680-dc098f8d16e1",
+        "coordX": "452.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "499a7eea-e4ce-46c3-92ec-497d987519af",
+        "coordX": "444.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "9710c5fb-d821-4020-9aa2-6a5bdd50d782",
+        "coordX": "436.024",
+        "coordY": "105.512",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f3a82d1f-9f96-4a1f-a31f-16efdd74a625",
+        "coordX": "418.383",
+        "coordY": "130.416",
+        "width": "4.77199999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "db76fa63-7f3e-49d8-817c-91a24050fd59",
+        "coordX": "429.273",
+        "coordY": "130.416",
+        "width": "4.77199999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "be6f87d8-2ebc-46bf-b042-d3d3d956047e",
+        "coordX": "440.163",
+        "coordY": "130.416",
+        "width": "4.77199999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7a19b6b5-6ae6-4aef-8a44-68d54992e96d",
+        "coordX": "451.053",
+        "coordY": "130.416",
+        "width": "4.77199999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "1af4bb86-576d-413c-b08c-ccd363c21661",
+        "coordX": "461.943",
+        "coordY": "130.416",
+        "width": "4.77199999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "68d23f98-ebbc-4e3a-a2d8-4a68331d0915",
+        "coordX": "472.833",
+        "coordY": "130.416",
+        "width": "4.77199999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4f58a975-f235-4d97-9ab1-2ba5bc46b987",
+        "coordX": "483.723",
+        "coordY": "130.416",
+        "width": "4.77100000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "68f66ee2-813c-49df-b407-c0352913ad1a",
+        "coordX": "494.613",
+        "coordY": "130.416",
+        "width": "4.77100000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "47df3080-8876-498c-beec-007896ec481d",
+        "coordX": "505.503",
+        "coordY": "130.416",
+        "width": "4.77100000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "caa8387e-793f-4e62-9874-cc940df402fa",
+        "coordX": "521.062",
+        "coordY": "130.416",
+        "width": "4.77099999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a0d2d62c-af65-4654-8d25-3248dbadd75a",
+        "coordX": "521.062",
+        "coordY": "115.908",
+        "width": "4.77099999999996",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "67df4a30-54c6-4017-b092-78917fbbf6a0",
+        "coordX": "389.96",
+        "coordY": "72.522",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "629c7d4b-f1ac-4277-a7b5-bd36a2a91f2f",
+        "coordX": "389.96",
+        "coordY": "81.52",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "95859b68-4085-4ce1-8f24-1e9d211fb16e",
+        "coordX": "407.072",
+        "coordY": "72.522",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "83aa6e22-2216-4b03-aeaf-f486b5751acb",
+        "coordX": "407.072",
+        "coordY": "81.52",
+        "width": "4.77100000000002",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "cde7adf8-df7d-47ff-acb7-3c4d3070e33e",
+        "coordX": "429.67",
+        "coordY": "81.52",
+        "width": "4.76999999999998",
+        "height": "4.771",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7220bb5a-8c49-4afa-af5d-09feead346dd",
+        "coordX": "383.467",
+        "coordY": "121.851",
+        "width": "3.81800000000004",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "747559f7-36a0-4671-b349-d1c5ad51c0f2",
+        "coordX": "389.96",
+        "coordY": "130.416",
+        "width": "4.77100000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8e9f089a-291f-4849-84ae-0a4671ff93a8",
+        "coordX": "407.072",
+        "coordY": "115.908",
+        "width": "4.77100000000002",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "471d4479-9d6c-4884-8753-62523ca75040",
+        "coordX": "323.558",
+        "coordY": "130.416",
+        "width": "25.213",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a470cfe1-0764-4544-ae48-a25c9e26885d",
+        "coordX": "376.021",
+        "coordY": "130.416",
+        "width": "4.77099999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c3bf00ad-cdb0-4c7e-8c70-5d8899ebef26",
+        "coordX": "376.021",
+        "coordY": "111.173",
+        "width": "4.77099999999996",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "beaceaff-574a-4d1a-8dc8-a149615c34ea",
+        "coordX": "245.434",
+        "coordY": "130.416",
+        "width": "4.47499999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "3edd5751-ee53-4657-880c-6e4a83915d0f",
+        "coordX": "256.027",
+        "coordY": "130.416",
+        "width": "4.476",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d38bed31-6f25-4d25-889d-5d0cd8b68af9",
+        "coordX": "266.621",
+        "coordY": "130.416",
+        "width": "29.633",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "9de7492b-1eb7-42ca-99a9-c293add669ab",
+        "coordX": "302.372",
+        "coordY": "130.416",
+        "width": "4.47499999999997",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "10f4f8c3-8699-45d6-b2a4-bc56b2c5e367",
+        "coordX": "312.965",
+        "coordY": "130.416",
+        "width": "4.47500000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "dd02a47a-8b6a-4d14-bb7a-2a69eb66d361",
+        "coordX": "192.405",
+        "coordY": "111.173",
+        "width": "4.77000000000001",
+        "height": "4.77",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7f4b4a9a-58dd-4d29-9153-d43dfa54e7c4",
+        "coordX": "214.1",
+        "coordY": "145.451",
+        "width": "4.77000000000001",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "41753508-d07e-4389-8b94-7ffed7e29b74",
+        "coordX": "120.126",
+        "coordY": "123.801",
+        "width": "3.917",
+        "height": "19.497",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "087a3af3-17a3-44ba-a744-0cec7217c25d",
+        "coordX": "130.933",
+        "coordY": "123.801",
+        "width": "3.917",
+        "height": "18.03",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4dea494a-7bc9-4d4b-ad32-eb14b7a63e8b",
+        "coordX": "134.85",
+        "coordY": "127.422",
+        "width": "5.316",
+        "height": "9.785",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "2f174b74-8fde-4a77-91f0-33d1dd716158",
+        "coordX": "78.854",
+        "coordY": "115.756",
+        "width": "62.217",
+        "height": "6.741",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "909d209c-e1cb-451f-aaf7-80457d609299",
+        "coordX": "134.859",
+        "coordY": "105.029",
+        "width": "6.18199999999999",
+        "height": "9.375",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "aca23fb1-8320-4a29-b376-da37b3f2b836",
+        "coordX": "37.58",
+        "coordY": "112.647",
+        "width": "31.573",
+        "height": "14.206",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "feeee153-fed0-4b08-a2cd-5adb3bce29e4",
+        "coordX": "37.58",
+        "coordY": "133.126",
+        "width": "31.573",
+        "height": "14.207",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "342e1211-548d-4cf6-a9be-64222adbbc24",
+        "coordX": "78.927",
+        "coordY": "123.801",
+        "width": "3.91699999999999",
+        "height": "18.193",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "139a2c23-7784-42d9-9169-4f4d85beb8ff",
+        "coordX": "85.02",
+        "coordY": "123.801",
+        "width": "7.54300000000001",
+        "height": "21.309",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5185a060-5ab6-4015-b97a-b04eb67427c4",
+        "coordX": "97.495",
+        "coordY": "123.801",
+        "width": "3.917",
+        "height": "18.193",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5e62e783-1972-4d62-a141-00657d729255",
+        "coordX": "108.665",
+        "coordY": "123.801",
+        "width": "3.91699999999999",
+        "height": "18.193",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0d1c5acb-e0c7-42ea-8b25-282a4d2113be",
+        "coordX": "12.151",
+        "coordY": "59.366",
+        "width": "14.38",
+        "height": "3.145",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "42aa5092-1bf7-45ab-b63a-7ecddc8bc37f",
+        "coordX": "12.083",
+        "coordY": "64.111",
+        "width": "12.0",
+        "height": "17.383",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4997ff78-8579-4f86-a749-6b311a0823be",
+        "coordX": "26.319",
+        "coordY": "66.505",
+        "width": "2.965",
+        "height": "11.739",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "52019e0c-45a2-420d-80c4-4f55d39045ea",
+        "coordX": "33.082",
+        "coordY": "58.036",
+        "width": "6.299",
+        "height": "20.208",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "57bf8fa8-855a-4165-a969-0cc369aac1cb",
+        "coordX": "43.55",
+        "coordY": "58.036",
+        "width": "6.299",
+        "height": "20.208",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ee58e561-a213-4a42-8cb8-5e8a1b46b54c",
+        "coordX": "54.471",
+        "coordY": "58.036",
+        "width": "6.29900000000001",
+        "height": "20.208",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "1546bd2d-32cc-4942-98d1-1418ff1d7f82",
+        "coordX": "61.407",
+        "coordY": "76.39",
+        "width": "8.524",
+        "height": "5.129",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6fd57c86-01a3-4bfc-982b-252583026e8d",
+        "coordX": "336.757",
+        "coordY": "145.11",
+        "width": "4.76999999999998",
+        "height": "4.76999999999998",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "75373c3f-b1af-4a60-a11e-d9a5de6ea9a2",
+        "coordX": "362.133",
+        "coordY": "145.11",
+        "width": "4.77000000000004",
+        "height": "4.76999999999998",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "40d23c01-d4cc-4743-97f8-5d9d76075bcd",
+        "coordX": "309.97",
+        "coordY": "203.325",
+        "width": "4.0",
+        "height": "4.0",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "401b8b6d-9c7d-451e-b25c-ead01452fc64",
+        "coordX": "269.97",
+        "coordY": "199.762",
+        "width": "4.0",
+        "height": "3.56299999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "52337386-2861-412b-8cf5-bbf91e820544",
+        "coordX": "277.97",
+        "coordY": "199.762",
+        "width": "4.0",
+        "height": "3.56299999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a891f7dc-4592-459e-b9e2-0a7d77b39e09",
+        "coordX": "285.97",
+        "coordY": "199.762",
+        "width": "4.0",
+        "height": "3.56299999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5f94c4cf-7d04-466d-ab8f-3546457113ba",
+        "coordX": "293.97",
+        "coordY": "199.762",
+        "width": "4.0",
+        "height": "3.56299999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "42303b24-d76b-4d8b-b674-38d7a8460a6d",
+        "coordX": "301.97",
+        "coordY": "199.762",
+        "width": "4.0",
+        "height": "3.56299999999999",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "474c01d3-b4ac-4204-a99f-e2ff9ae3fa2a",
+        "coordX": "280.594",
+        "coordY": "217.75",
+        "width": "4.84800000000001",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a85ac607-64f2-46f5-b358-fe9e0a86512e",
+        "coordX": "291.561",
+        "coordY": "217.75",
+        "width": "4.84800000000001",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "fac47838-6128-4042-aee4-0dda33a86625",
+        "coordX": "302.527",
+        "coordY": "217.75",
+        "width": "4.54200000000003",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a898cbde-d87f-445a-a821-4ac141ab1d9b",
+        "coordX": "313.187",
+        "coordY": "217.75",
+        "width": "4.029",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "df5da284-a833-4a8a-857c-b420325382cd",
+        "coordX": "336.757",
+        "coordY": "217.75",
+        "width": "4.76999999999998",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "fc2bad50-5960-4aec-af31-c4e1b7fb8e17",
+        "coordX": "307.744",
+        "coordY": "207.325",
+        "width": "4.76999999999998",
+        "height": "7.74900000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "aed89c1f-cca0-408b-a59d-c608f39b25be",
+        "coordX": "217.048",
+        "coordY": "217.75",
+        "width": "4.84799999999998",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c5557fbe-d745-48b3-b0a9-32991c7a15ab",
+        "coordX": "228.014",
+        "coordY": "217.75",
+        "width": "4.84899999999999",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "fa8ba53f-f33b-4d5a-a37c-551a7d1b5291",
+        "coordX": "238.981",
+        "coordY": "217.75",
+        "width": "4.541",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4822baf4-af67-4ed6-b1a7-b46277181f3d",
+        "coordX": "249.641",
+        "coordY": "217.75",
+        "width": "4.02800000000002",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "78775322-d205-4bc3-8cd7-70e1d3070df0",
+        "coordX": "259.787",
+        "coordY": "217.75",
+        "width": "4.029",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "521186c2-a5ae-466f-816f-c52ccf4ec7ab",
+        "coordX": "269.934",
+        "coordY": "217.75",
+        "width": "4.54199999999997",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f41643fd-dc3e-423d-8a14-32d26b59ab73",
+        "coordX": "127.576",
+        "coordY": "217.75",
+        "width": "30.774",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "77f5cc72-1ed2-45c9-a69f-cb7829eec83b",
+        "coordX": "164.468",
+        "coordY": "217.75",
+        "width": "4.84900000000002",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "9a2f8242-22a2-4e0d-9215-8cd3b2cce400",
+        "coordX": "175.435",
+        "coordY": "217.75",
+        "width": "4.541",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "cfb7d704-35c2-4067-8e81-07c301e27631",
+        "coordX": "186.094",
+        "coordY": "217.75",
+        "width": "4.029",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d1e86000-f6ba-43b1-913c-5d1348506c9b",
+        "coordX": "196.241",
+        "coordY": "217.75",
+        "width": "4.029",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "08a685ad-6163-467b-ae6c-f13dcab9a0e9",
+        "coordX": "206.388",
+        "coordY": "217.75",
+        "width": "4.541",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "507964cc-e7e3-4d59-9c69-95364847b73c",
+        "coordX": "98.309",
+        "coordY": "253.946",
+        "width": "4.771",
+        "height": "4.542",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8f7b7089-f5db-4b74-a33b-a63d3d58a6dc",
+        "coordX": "98.309",
+        "coordY": "243.287",
+        "width": "4.771",
+        "height": "4.541",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c5c08bdc-6a43-4c2c-bc8c-55efef49fd23",
+        "coordX": "98.309",
+        "coordY": "231.974",
+        "width": "4.771",
+        "height": "5.19500000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "5bf184d7-073a-4d84-86e6-0565a246a7e3",
+        "coordX": "98.309",
+        "coordY": "217.75",
+        "width": "4.771",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "9ff136c1-f26c-4bb8-83aa-14ac9cb1a3c0",
+        "coordX": "116.609",
+        "coordY": "217.75",
+        "width": "4.849",
+        "height": "4.77000000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "63cfa072-1074-473a-b9c0-40317e8f2f03",
+        "coordX": "222.055",
+        "coordY": "276.167",
+        "width": "4.76999999999998",
+        "height": "65.885",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ad353d20-8142-482a-9745-9bc8b02f7f07",
+        "coordX": "232.844",
+        "coordY": "282.708",
+        "width": "4.77100000000002",
+        "height": "4.77099999999996",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "19e9e4f4-3958-4b78-b82a-827e78f853bb",
+        "coordX": "232.844",
+        "coordY": "295.854",
+        "width": "4.77100000000002",
+        "height": "4.77000000000004",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e468fe3e-3346-4581-aa10-a409cd6bbeb0",
+        "coordX": "275.55",
+        "coordY": "295.854",
+        "width": "4.77100000000002",
+        "height": "4.77000000000004",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "532b756d-c173-463e-8594-01e601a84b55",
+        "coordX": "275.55",
+        "coordY": "282.708",
+        "width": "4.77100000000002",
+        "height": "4.77099999999996",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "2a7c9a7c-8b3d-43e2-81ed-4233e01bf682",
+        "coordX": "344.308",
+        "coordY": "268.721",
+        "width": "4.50100000000003",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "66883111-dfe2-44da-94f2-cf7175312d1e",
+        "coordX": "362.133",
+        "coordY": "268.721",
+        "width": "4.77000000000004",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f64892f1-04cc-4d57-9c96-0361703bb632",
+        "coordX": "362.133",
+        "coordY": "243.831",
+        "width": "4.77000000000004",
+        "height": "7.35400000000001",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "92b05315-f1a1-4372-8764-b5654212f614",
+        "coordX": "362.133",
+        "coordY": "231.915",
+        "width": "4.77000000000004",
+        "height": "5.797",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e63e3a91-ee3a-4f26-8ebb-1af42375349f",
+        "coordX": "303.242",
+        "coordY": "268.721",
+        "width": "3.78299999999996",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c2db3e18-1526-48dc-bec9-912bef921ba6",
+        "coordX": "313.143",
+        "coordY": "268.721",
+        "width": "3.78400000000005",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "ad4b8978-bada-4bae-94c9-76455c3350af",
+        "coordX": "323.045",
+        "coordY": "268.721",
+        "width": "4.72499999999997",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "7af3d73b-43a0-424f-b5a8-f73f8bcd33d0",
+        "coordX": "333.888",
+        "coordY": "268.721",
+        "width": "4.30100000000004",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "740c4dfe-8c54-4826-b92e-f5a5d7ef0ecc",
+        "coordX": "237.307",
+        "coordY": "268.721",
+        "width": "5.46700000000001",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d5443b67-9442-4eea-b844-a43d41c81333",
+        "coordX": "248.892",
+        "coordY": "268.721",
+        "width": "5.46600000000001",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "16a2bf14-b970-4d6b-a57b-4e030baeb760",
+        "coordX": "260.476",
+        "coordY": "268.721",
+        "width": "5.54700000000003",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "8b7644a6-5fcb-445f-849c-9d656bfdc0ae",
+        "coordX": "272.141",
+        "coordY": "268.721",
+        "width": "5.17899999999997",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "95e9fff2-39e0-4bef-870e-b996759b9411",
+        "coordX": "283.438",
+        "coordY": "268.721",
+        "width": "3.78300000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "81adebf6-2863-4b42-94dd-f93a014ebd88",
+        "coordX": "293.34",
+        "coordY": "268.721",
+        "width": "3.78300000000002",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "08e9dfb1-ba0c-4f53-885b-a11b0f4d72e3",
+        "coordX": "158.681",
+        "coordY": "268.721",
+        "width": "21.174",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6f5e1a3c-9435-49ac-a759-ed7d499a8488",
+        "coordX": "185.973",
+        "coordY": "268.721",
+        "width": "4.91899999999998",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "d08117b6-d3a2-4b66-ba5a-b3ddac09a989",
+        "coordX": "197.01",
+        "coordY": "268.721",
+        "width": "4.751",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "598780dc-8a48-4e81-b3ac-4915192e6752",
+        "coordX": "207.879",
+        "coordY": "268.721",
+        "width": "3.691",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e6d314dc-8a66-4f06-8d5e-1e6a2c73255f",
+        "coordX": "217.689",
+        "coordY": "268.721",
+        "width": "3.691",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "04f218b4-2312-46c3-bfd6-49d4a0916679",
+        "coordX": "227.498",
+        "coordY": "268.721",
+        "width": "3.691",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "27cc0591-34ca-403c-9eba-8831cd62fbfa",
+        "coordX": "98.309",
+        "coordY": "268.721",
+        "width": "4.771",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "4e479844-f762-4c9f-9191-f452269b0e18",
+        "coordX": "116.403",
+        "coordY": "268.721",
+        "width": "4.49799999999999",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "26addce7-166b-4054-8fc9-d62c4f4f1f50",
+        "coordX": "127.019",
+        "coordY": "268.721",
+        "width": "4.22299999999998",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "e9d42ffb-80c0-4b66-a73a-3d5d3f914984",
+        "coordX": "137.36",
+        "coordY": "268.721",
+        "width": "4.333",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "f807cedf-07c2-4292-b5f5-ad5663b8794e",
+        "coordX": "147.811",
+        "coordY": "268.721",
+        "width": "4.75199999999998",
+        "height": "4.77100000000002",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "c568c685-e113-43bd-b5d5-b093c4a7ffcf",
+        "coordX": "95.857",
+        "coordY": "282.708",
+        "width": "4.77",
+        "height": "4.77099999999996",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "fc73a02f-436f-4cda-9c30-ac85c26aea15",
+        "coordX": "95.857",
+        "coordY": "295.854",
+        "width": "4.77",
+        "height": "4.77000000000004",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "6cf8ae65-c6be-407c-8522-948552c2fb5f",
+        "coordX": "159.37",
+        "coordY": "295.854",
+        "width": "4.77099999999999",
+        "height": "4.77000000000004",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "0b9be53a-512b-4f53-9560-e86326dd0423",
+        "coordX": "159.37",
+        "coordY": "282.708",
+        "width": "4.77099999999999",
+        "height": "4.77099999999996",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "a3f8df21-6dfc-43a1-8f96-25b2bc87c872",
+        "coordX": "81.613",
+        "coordY": "257.41",
+        "width": "4.77",
+        "height": "24.529",
+        "conveyor": "false"
+    },
+    {
+        "deviceNum": "MJK50027",
+        "stationNum": "3763f6c7-4656-4227-acd9-509c52034f3f",
+        "coordX": "81.613",
+        "coordY": "288.057",
+        "width": "4.77",
+        "height": "4.90299999999996",
+        "conveyor": "false"
     }
 ]
