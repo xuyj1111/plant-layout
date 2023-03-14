@@ -6,7 +6,7 @@
         "coordY":"287.406",
         "width":"10.121",
         "height":"13.793",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -15,7 +15,7 @@
         "coordY":"115.943",
         "width":"4.77099999999996",
         "height":"5.23400000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -24,7 +24,7 @@
         "coordY":"287.406",
         "width":"10.121",
         "height":"13.793",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -33,7 +33,7 @@
         "coordY":"46.536",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -42,7 +42,7 @@
         "coordY":"46.536",
         "width":"4.77000000000001",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -51,7 +51,7 @@
         "coordY":"46.536",
         "width":"4.77099999999999",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -60,7 +60,7 @@
         "coordY":"23.526",
         "width":"4.77099999999999",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -69,7 +69,7 @@
         "coordY":"23.526",
         "width":"4.77000000000001",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -78,7 +78,7 @@
         "coordY":"23.526",
         "width":"4.77100000000002",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -87,7 +87,7 @@
         "coordY":"46.536",
         "width":"4.77099999999999",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -96,7 +96,7 @@
         "coordY":"90.689",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -105,7 +105,7 @@
         "coordY":"90.689",
         "width":"4.77099999999999",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -114,7 +114,7 @@
         "coordY":"90.689",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -123,7 +123,7 @@
         "coordY":"90.689",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -132,7 +132,7 @@
         "coordY":"90.689",
         "width":"4.77000000000001",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -141,7 +141,7 @@
         "coordY":"46.536",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -150,7 +150,7 @@
         "coordY":"46.536",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -159,7 +159,7 @@
         "coordY":"46.536",
         "width":"4.77000000000001",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -168,7 +168,7 @@
         "coordY":"23.526",
         "width":"4.77099999999996",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -177,7 +177,7 @@
         "coordY":"72.522",
         "width":"4.77099999999996",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -186,7 +186,7 @@
         "coordY":"72.522",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -195,7 +195,7 @@
         "coordY":"99.271",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -204,7 +204,7 @@
         "coordY":"81.52",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -213,7 +213,7 @@
         "coordY":"54.621",
         "width":"4.76999999999998",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -222,7 +222,7 @@
         "coordY":"23.526",
         "width":"4.76999999999998",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -231,7 +231,7 @@
         "coordY":"39.371",
         "width":"3.76099999999997",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -240,7 +240,7 @@
         "coordY":"54.621",
         "width":"4.77099999999996",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -249,7 +249,7 @@
         "coordY":"39.006",
         "width":"4.77099999999996",
         "height":"4.567",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -258,7 +258,7 @@
         "coordY":"28.322",
         "width":"4.77099999999996",
         "height":"4.566",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -267,7 +267,7 @@
         "coordY":"11.855",
         "width":"4.77099999999996",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -276,7 +276,7 @@
         "coordY":"11.855",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -285,7 +285,7 @@
         "coordY":"11.855",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -294,7 +294,7 @@
         "coordY":"11.855",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -303,7 +303,7 @@
         "coordY":"46.087",
         "width":"4.77100000000002",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -312,7 +312,7 @@
         "coordY":"46.087",
         "width":"4.76999999999998",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -321,7 +321,7 @@
         "coordY":"46.087",
         "width":"4.77100000000002",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -330,7 +330,7 @@
         "coordY":"46.087",
         "width":"4.76999999999998",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -339,7 +339,7 @@
         "coordY":"23.526",
         "width":"4.76999999999998",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -348,7 +348,7 @@
         "coordY":"205.109",
         "width":"4.57600000000002",
         "height":"4.76999999999998",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -357,7 +357,7 @@
         "coordY":"214.405",
         "width":"4.77100000000002",
         "height":"4.77099999999999",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -366,7 +366,7 @@
         "coordY":"214.405",
         "width":"4.77099999999996",
         "height":"4.77099999999999",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -375,7 +375,7 @@
         "coordY":"150.933",
         "width":"4.77099999999996",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -384,7 +384,7 @@
         "coordY":"150.933",
         "width":"4.77100000000002",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -393,7 +393,7 @@
         "coordY":"175.357",
         "width":"4.77099999999996",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -402,7 +402,7 @@
         "coordY":"175.357",
         "width":"4.77100000000007",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -411,7 +411,7 @@
         "coordY":"175.357",
         "width":"4.77100000000002",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -420,7 +420,7 @@
         "coordY":"223.939",
         "width":"4.77100000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -429,7 +429,7 @@
         "coordY":"223.939",
         "width":"4.45600000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -438,7 +438,7 @@
         "coordY":"223.939",
         "width":"4.45599999999996",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -447,7 +447,7 @@
         "coordY":"223.939",
         "width":"4.55700000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -456,7 +456,7 @@
         "coordY":"193.774",
         "width":"4.77100000000007",
         "height":"29.492",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -465,7 +465,7 @@
         "coordY":"188.33",
         "width":"6.23199999999997",
         "height":"4.76999999999998",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -474,7 +474,7 @@
         "coordY":"301.199",
         "width":"4.77099999999996",
         "height":"40.853",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -483,7 +483,7 @@
         "coordY":"241.64",
         "width":"4.77100000000002",
         "height":"100.412",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -492,7 +492,7 @@
         "coordY":"241.64",
         "width":"4.76999999999998",
         "height":"100.412",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -501,7 +501,7 @@
         "coordY":"246.411",
         "width":"4.77100000000002",
         "height":"95.641",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -510,7 +510,7 @@
         "coordY":"241.64",
         "width":"4.77100000000007",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -519,7 +519,7 @@
         "coordY":"301.199",
         "width":"4.77100000000007",
         "height":"40.853",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -528,7 +528,7 @@
         "coordY":"236.237",
         "width":"4.97399999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -537,7 +537,7 @@
         "coordY":"236.237",
         "width":"4.77099999999996",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -546,7 +546,7 @@
         "coordY":"230.485",
         "width":"4.77000000000004",
         "height":"5.75199999999998",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -555,7 +555,7 @@
         "coordY":"236.237",
         "width":"4.97399999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -564,7 +564,7 @@
         "coordY":"175.357",
         "width":"4.77099999999996",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -573,7 +573,7 @@
         "coordY":"175.357",
         "width":"4.77000000000004",
         "height":"4.77000000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -582,7 +582,7 @@
         "coordY":"199.446",
         "width":"4.77000000000004",
         "height":"4.69200000000001",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -591,7 +591,7 @@
         "coordY":"210.256",
         "width":"4.77000000000004",
         "height":"3.82499999999999",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -600,7 +600,7 @@
         "coordY":"220.2",
         "width":"4.77000000000004",
         "height":"4.167",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -609,7 +609,7 @@
         "coordY":"276.167",
         "width":"4.77100000000002",
         "height":"65.885",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -618,7 +618,7 @@
         "coordY":"276.167",
         "width":"4.77099999999996",
         "height":"65.885",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -627,7 +627,7 @@
         "coordY":"268.721",
         "width":"4.77099999999996",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -636,7 +636,7 @@
         "coordY":"268.721",
         "width":"4.97399999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -645,7 +645,7 @@
         "coordY":"268.721",
         "width":"3.88999999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -654,7 +654,7 @@
         "coordY":"268.721",
         "width":"4.67500000000001",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -663,7 +663,7 @@
         "coordY":"268.721",
         "width":"4.61599999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -672,7 +672,7 @@
         "coordY":"268.721",
         "width":"3.85500000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -681,7 +681,7 @@
         "coordY":"268.721",
         "width":"4.84499999999997",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -690,7 +690,7 @@
         "coordY":"268.721",
         "width":"4.77099999999996",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -699,7 +699,7 @@
         "coordY":"244.458",
         "width":"4.77099999999996",
         "height":"5.19399999999999",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -708,7 +708,7 @@
         "coordY":"233.146",
         "width":"4.77099999999996",
         "height":"5.19400000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -717,7 +717,7 @@
         "coordY":"221.834",
         "width":"4.77099999999996",
         "height":"5.19399999999999",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -726,7 +726,7 @@
         "coordY":"210.522",
         "width":"4.77099999999996",
         "height":"5.19400000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -735,7 +735,7 @@
         "coordY":"199.21",
         "width":"4.77099999999996",
         "height":"5.19399999999999",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -744,7 +744,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -753,7 +753,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -762,7 +762,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -771,7 +771,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -780,7 +780,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -789,7 +789,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -798,7 +798,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -807,7 +807,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -816,7 +816,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -825,7 +825,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -834,7 +834,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -843,7 +843,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -852,7 +852,7 @@
         "coordY":"93.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -861,7 +861,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -870,7 +870,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -879,7 +879,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -888,7 +888,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -897,7 +897,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -906,7 +906,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -915,7 +915,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -924,7 +924,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -933,7 +933,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -942,7 +942,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -951,7 +951,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -960,7 +960,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -969,7 +969,7 @@
         "coordY":"105.512",
         "width":"4.0",
         "height":"4.0",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -978,7 +978,7 @@
         "coordY":"130.416",
         "width":"4.77199999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -987,7 +987,7 @@
         "coordY":"130.416",
         "width":"4.77199999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -996,7 +996,7 @@
         "coordY":"130.416",
         "width":"4.77199999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1005,7 +1005,7 @@
         "coordY":"130.416",
         "width":"4.77199999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1014,7 +1014,7 @@
         "coordY":"130.416",
         "width":"4.77199999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1023,7 +1023,7 @@
         "coordY":"130.416",
         "width":"4.77199999999999",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1032,7 +1032,7 @@
         "coordY":"130.416",
         "width":"4.77100000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1041,7 +1041,7 @@
         "coordY":"130.416",
         "width":"4.77100000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1050,7 +1050,7 @@
         "coordY":"130.416",
         "width":"4.77100000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1059,7 +1059,7 @@
         "coordY":"130.416",
         "width":"4.77099999999996",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1068,7 +1068,7 @@
         "coordY":"115.908",
         "width":"4.77099999999996",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1077,7 +1077,7 @@
         "coordY":"72.522",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1086,7 +1086,7 @@
         "coordY":"81.52",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1095,7 +1095,7 @@
         "coordY":"72.522",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1104,7 +1104,7 @@
         "coordY":"81.52",
         "width":"4.77100000000002",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1113,7 +1113,7 @@
         "coordY":"81.52",
         "width":"4.76999999999998",
         "height":"4.771",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1122,7 +1122,7 @@
         "coordY":"121.851",
         "width":"3.81800000000004",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1131,7 +1131,7 @@
         "coordY":"130.416",
         "width":"4.77100000000002",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1140,7 +1140,7 @@
         "coordY":"115.908",
         "width":"4.77100000000002",
         "height":"4.77",
-        "conveyor":false
+        "conveyor":"false"
     },
     {
         "deviceNum":"MJK50027",
@@ -1149,6 +1149,6 @@
         "coordY":"130.416",
         "width":"25.213",
         "height":"4.77100000000002",
-        "conveyor":false
+        "conveyor":"false"
     }
 ]
