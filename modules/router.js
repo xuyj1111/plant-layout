@@ -4,6 +4,33 @@ const router = express.Router();
 const fs = require('fs');
 const iconv = require('iconv-lite');
 const chardet = require('chardet');
+const mysql = require('mysql');
+const MYSQL_CONFIG = require('../metadata/mysqlConfig')
+
+const db = mysql.createPool(MYSQL_CONFIG);
+const exec = sql => {
+    return new Promise((resolve, reject) => {
+        db.getConnection((err, connection) => {
+            if (err) {
+                console.log('连接mysql失败!');
+                reject(err);
+            } else {
+                connection.query(sql, (err, result) => {
+                    if (err) {
+                        reject(err);
+                        console.log('连接mysql失败!');
+                    } else {
+                        resolve(result);
+                        console.log('连接mysql成功!');
+                    }
+                });
+            }
+            // 连接归还到连接池
+            connection.release();
+        })
+    })
+}
+
 
 // “登陆”接口
 router.post('/login', (request, response) => {
@@ -76,6 +103,12 @@ router.post('/plant', (request, response) => {
         }
         response.send();
     });
+})
+
+// 演示
+const sqlStr = 'select * from problems'
+exec(sqlStr).then(data => {
+    console.log(data);
 })
 
 module.exports = router;
