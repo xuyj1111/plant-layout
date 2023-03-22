@@ -117,6 +117,7 @@ router.post('/plant', (request, response) => {
     });
 })
 
+// 根据条件获取问题点count
 router.get('/plant/problems/count', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const deviceNum = request.query.deviceNum;
@@ -139,17 +140,17 @@ router.get('/plant/problems/count', (request, response) => {
         response.send();
         return;
     }
-    var sqlStr = `select count(1) from problems where plant = ${plant} and device_num = ${deviceNum} and station_num = ${stationNum}`;
+    var sqlStr = `select count(1) as count from problems where plant = '${plant}' and device_num = '${deviceNum}' and station_num = '${stationNum}'`;
     if (isNeedHelp != null) {
         isNeedHelp ? sqlStr += ` and is_need_help != '否'` 
         : sqlStr += ` and is_need_help = '否'`;
     }
     if (status != null) {
-        sqlStr += ` and status = ${status}`;
+        sqlStr += ` and status = '${status}'`;
     }
     console.log(`exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
-        response.send(data);
+        response.send(data[0]);
     })
 })
 
