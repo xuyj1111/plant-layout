@@ -142,7 +142,7 @@ router.get('/plant/problems/count', (request, response) => {
     }
     var sqlStr = `select count(1) as count from problems where plant = '${plant}' and device_num = '${deviceNum}' and station_num = '${stationNum}'`;
     if (isNeedHelp != null) {
-        isNeedHelp ? sqlStr += ` and is_need_help != '否'` 
+        JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'` 
         : sqlStr += ` and is_need_help = '否'`;
     }
     if (status != null) {
