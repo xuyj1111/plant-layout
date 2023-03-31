@@ -6,6 +6,7 @@ const iconv = require('iconv-lite');
 const chardet = require('chardet');
 const mysql = require('mysql');
 const MYSQL_CONFIG = require('../metadata/mysqlConfig');
+const CryptoJS = require("crypto-js");
 
 const db = mysql.createPool(MYSQL_CONFIG);
 const exec = sql => {
@@ -41,7 +42,8 @@ const PLANT_VALUE = {
     'pulley': '带轮',
     'differential': '差速器',
     'heat': '热处理'
-}
+};
+const key = "1234";
 
 
 // “登陆”接口
@@ -58,16 +60,28 @@ router.post('/login', (request, response) => {
             return;
         }
         try {
+            // 获取文件的编码格式
             const encoding = chardet.detect(data);
-            const jsonObj = JSON.parse(iconv.decode(data, encoding));
-            if (user == jsonObj['user'] && pwd == jsonObj['pwd']) {
-                response.send();
-            } else {
-                console.log('用户名密码错误');
-                response.statusCode = 400;
-                response.statusMessage = 'Wrong account password';
-                response.send();
+            // 解密
+            const bytes = CryptoJS.AES.decrypt(iconv.decode(data, encoding), key);
+            // 以utf8格式获取
+            const jsonStr = bytes.toString(CryptoJS.enc.Utf8);
+            // json对象
+            const jsonObj = JSON.parse(jsonStr);
+            for(let element of jsonObj) {
+                if(element.hasOwnProperty('user')
+                && element.hasOwnProperty('pwd')
+                && element.hasOwnProperty('role')) {
+                    if(user == element['user'] && pwd == element['pwd']) {
+                        response.send(element['role']);
+                        return;
+                    }
+                }
             }
+            console.log('用户名密码错误');
+            response.statusCode = 400;
+            response.statusMessage = 'Wrong account password';
+            response.send();
         } catch (error) {
             console.log(`解析配置文件失败: ${error.message}`);
             response.statusCode = 400;
@@ -142,8 +156,8 @@ router.get('/plant/problems/count', (request, response) => {
     }
     var sqlStr = `select count(1) as count from problems where plant = '${plant}' and device_num = '${deviceNum}' and station_num = '${stationNum}'`;
     if (isNeedHelp != null) {
-        JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'` 
-        : sqlStr += ` and is_need_help = '否'`;
+        JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
+            : sqlStr += ` and is_need_help = '否'`;
     }
     if (status != null) {
         sqlStr += ` and status = '${status}'`;
