@@ -7,6 +7,7 @@ const chardet = require('chardet');
 const mysql = require('mysql');
 const MYSQL_CONFIG = require('../metadata/mysqlConfig');
 const CryptoJS = require("crypto-js");
+const moment = require('moment');
 
 const db = mysql.createPool(MYSQL_CONFIG);
 const exec = sql => {
@@ -44,6 +45,11 @@ const PLANT_VALUE = {
     'heat': '热处理'
 };
 const key = "1234";
+const STATUS_VALUE = {
+    'unfinished': '未完成',
+    'review': '审核中',
+    'finished': '已完成'
+}
 
 
 // “登陆”接口
@@ -68,11 +74,11 @@ router.post('/login', (request, response) => {
             const jsonStr = bytes.toString(CryptoJS.enc.Utf8);
             // json对象
             const jsonObj = JSON.parse(jsonStr);
-            for(let element of jsonObj) {
-                if(element.hasOwnProperty('user')
-                && element.hasOwnProperty('pwd')
-                && element.hasOwnProperty('role')) {
-                    if(user == element['user'] && pwd == element['pwd']) {
+            for (let element of jsonObj) {
+                if (element.hasOwnProperty('user')
+                    && element.hasOwnProperty('pwd')
+                    && element.hasOwnProperty('role')) {
+                    if (user == element['user'] && pwd == element['pwd']) {
                         response.send(element['role']);
                         return;
                     }
@@ -165,6 +171,59 @@ router.get('/plant/problems/count', (request, response) => {
     console.log(`exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
         response.send(data[0]);
+    })
+})
+
+
+
+// 根据条件获取问题点
+router.get('/plant/problems', (request, response) => {
+    const plant = PLANT_VALUE[request.query.plant];
+    const deviceNum = request.query.deviceNum;
+    const stationNum = request.query.stationNum == null ? STATION_NUM_NULL : request.query.stationNum;
+    const isNeedHelp = request.query.isNeedHelp;
+    const status = request.query.status;
+    const page = request.query.page;
+    const size = request.query.size;
+    console.log(`>>> request to get plant probelsms, plant[${plant}] deviceNum [${deviceNum}] 
+    stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}]`);
+    if (plant == null) {
+        console.log(`plant值不能为null`);
+        response.statusCode = 400;
+        response.statusMessage = 'Plant cannot be null';
+        response.send();
+        return;
+    }
+    if (deviceNum == null) {
+        console.log(`deviceNum值不能为null`);
+        response.statusCode = 400;
+        response.statusMessage = 'DeviceNum cannot be null';
+        response.send();
+        return;
+    }
+    var sqlStr = `select id, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}' and device_num = '${deviceNum}' and station_num = '${stationNum}'`;
+    if (isNeedHelp != null) {
+        JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
+            : sqlStr += ` and is_need_help = '否'`;
+    }
+    if (status != null) {
+        sqlStr += ` and status = '${status}'`;
+    }
+    sqlStr += ` limit ${page * size}, ${size}`;
+    console.log(`exec sql [${sqlStr}]`);
+    exec(sqlStr).then(data => {
+        data = data.map(d => {
+            return {
+                id: d.id,
+                name: d.name,
+                dateCreated: moment(d.date_created,).format('YYYY-MM-DD HH:mm:ss'),
+                detail: d.detail,
+                isNeedHelp: d.is_need_help,
+                picture: d.picture,
+                status: STATUS_VALUE[d.status]
+            };
+        })
+        response.send(data);
     })
 })
 
