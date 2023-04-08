@@ -174,8 +174,6 @@ router.get('/plant/problems/count', (request, response) => {
     })
 })
 
-
-
 // 根据条件获取问题点
 router.get('/plant/problems', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
@@ -185,8 +183,9 @@ router.get('/plant/problems', (request, response) => {
     const status = request.query.status;
     const page = request.query.page;
     const size = request.query.size;
+    const search = request.query.search;
     console.log(`>>> request to get plant probelsms, plant[${plant}] deviceNum [${deviceNum}] 
-    stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}]`);
+    stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}] search[${search}]`);
     if (plant == null) {
         console.log(`plant值不能为null`);
         response.statusCode = 400;
@@ -208,6 +207,9 @@ router.get('/plant/problems', (request, response) => {
     }
     if (status != null) {
         sqlStr += ` and status = '${status}'`;
+    }
+    if (search != null) {
+        sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
     }
     sqlStr += ` limit ${page * size}, ${size}`;
     console.log(`exec sql [${sqlStr}]`);
