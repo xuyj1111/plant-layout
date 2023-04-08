@@ -144,8 +144,9 @@ router.get('/plant/problems/count', (request, response) => {
     const stationNum = request.query.stationNum == null ? STATION_NUM_NULL : request.query.stationNum;
     const isNeedHelp = request.query.isNeedHelp;
     const status = request.query.status;
+    const search = request.query.search;
     console.log(`>>> request to get plant probelsm count, plant[${plant}] deviceNum [${deviceNum}] 
-    stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}]`)
+    stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] search[${search}]`)
     if (plant == null) {
         console.log(`plant值不能为null`);
         response.statusCode = 400;
@@ -167,6 +168,9 @@ router.get('/plant/problems/count', (request, response) => {
     }
     if (status != null) {
         sqlStr += ` and status = '${status}'`;
+    }
+    if (search != null) {
+        sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
     }
     console.log(`exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
@@ -229,4 +233,32 @@ router.get('/plant/problems', (request, response) => {
     })
 })
 
+
+// 以设备编号和岗位号作为分组条件，然后返回信息为：设备编号，岗位号，状态=unfinished的数量，状态=review的数量
+router.get('/plant/problems/groupby', (request, response) => {
+    const plant = PLANT_VALUE[request.query.plant];
+    console.log(`>>> request to get plant probelsms for groupby`);
+    if (plant == null) {
+        console.log(`plant值不能为null`);
+        response.statusCode = 400;
+        response.statusMessage = 'Plant cannot be null';
+        response.send();
+        return;
+    }
+    var sqlStr = `SELECT device_num, station_num, SUM(CASE WHEN status = 'unfinished' THEN 1 ELSE 0 END) AS unfinished_count, SUM(CASE WHEN status = 'review' THEN 1 ELSE 0 END) AS review_count FROM problems`;
+    sqlStr += ` WHERE plant = '${plant}'`;
+    sqlStr += `  GROUP BY device_num, station_num`;
+    console.log(`exec sql [${sqlStr}]`);
+    exec(sqlStr).then(data => {
+        data = data.map(d => {
+            return {
+                deviceNum: d.device_num,
+                stationNum: d.station_num,
+                unfinishedCount: d.unfinished_count,
+                reviewCount: d.review_count
+            };
+        })
+        response.send(data);
+    })
+})
 module.exports = router;

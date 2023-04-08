@@ -3,7 +3,7 @@ CREATE TABLE `problems` (
   `id`           BIGINT(20)   NOT NULL AUTO_INCREMENT COMMENT '序号',
   `plant`        VARCHAR(255) NOT NULL COMMENT '厂房',
   `device_num`   VARCHAR(255) NOT NULL COMMENT '设备编号',
-  `station_num`  VARCHAR(255) DEFAULT NULL COMMENT '工位号',
+  `station_num`  VARCHAR(255) DEFAULT NULL COMMENT '岗位号',
   `name`         VARCHAR(255) NOT NULL COMMENT '提交人',
   `date_created` DATETIME     NOT NULL COMMENT '提交日期',
   `detail`       VARCHAR(500) NOT NULL COMMENT '问题点描述',
