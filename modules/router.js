@@ -154,14 +154,10 @@ router.get('/plant/problems/count', (request, response) => {
         response.send();
         return;
     }
-    if (deviceNum == null) {
-        console.log(`deviceNum值不能为null`);
-        response.statusCode = 400;
-        response.statusMessage = 'DeviceNum cannot be null';
-        response.send();
-        return;
+    var sqlStr = `select count(1) as count from problems where plant = '${plant}'`;
+    if(deviceNum != null) {
+        sqlStr += ` and device_num = '${deviceNum}' and station_num = '${stationNum}'`
     }
-    var sqlStr = `select count(1) as count from problems where plant = '${plant}' and device_num = '${deviceNum}' and station_num = '${stationNum}'`;
     if (isNeedHelp != null) {
         JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
             : sqlStr += ` and is_need_help = '否'`;
