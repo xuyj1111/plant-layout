@@ -84,7 +84,7 @@ router.post('/login', (request, response) => {
                     }
                 }
             }
-            console.log('用户名密码错误');
+            console.log('账号密码错误');
             response.statusCode = 400;
             response.statusMessage = 'Wrong account password';
             response.send();
