@@ -145,6 +145,7 @@ router.get('/plant/problems/count', (request, response) => {
     const isNeedHelp = request.query.isNeedHelp;
     const status = request.query.status;
     const search = request.query.search;
+    const department = request.query.department;
     console.log(`>>> request to get plant probelsm count, plant[${plant}] deviceNum [${deviceNum}] 
     stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] search[${search}]`)
     if (plant == null) {
@@ -155,12 +156,14 @@ router.get('/plant/problems/count', (request, response) => {
         return;
     }
     var sqlStr = `select count(1) as count from problems where plant = '${plant}'`;
-    if(deviceNum != null) {
+    if (deviceNum != null) {
         sqlStr += ` and device_num = '${deviceNum}' and station_num = '${stationNum}'`
     }
     if (isNeedHelp != null) {
         JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
             : sqlStr += ` and is_need_help = '否'`;
+    } else if (department != null) {
+        sqlStr += ` and is_need_help = '${department}'`;
     }
     if (status != null) {
         sqlStr += ` and status = '${status}'`;
@@ -184,6 +187,7 @@ router.get('/plant/problems', (request, response) => {
     const page = request.query.page;
     const size = request.query.size;
     const search = request.query.search;
+    const department = request.query.department;
     console.log(`>>> request to get plant probelsms, plant[${plant}] deviceNum [${deviceNum}] 
     stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}] search[${search}]`);
     if (plant == null) {
@@ -204,6 +208,8 @@ router.get('/plant/problems', (request, response) => {
     if (isNeedHelp != null) {
         JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
             : sqlStr += ` and is_need_help = '否'`;
+    } else if (department != null) {
+        sqlStr += ` and is_need_help = '${department}'`;
     }
     if (status != null) {
         sqlStr += ` and status = '${status}'`;
