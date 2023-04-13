@@ -1293,9 +1293,7 @@
         "coordY": "112.647",
         "width": "31.573",
         "height": "14.206",
-        "conveyor": "false",
-        "unfinishedCount": 1,
-        "reviewCount": 1
+        "conveyor": "false"
     },
     {
         "deviceNum": "MJK50027",
@@ -2573,9 +2571,7 @@
         "coordY": "31.724",
         "width": "10.034",
         "height": "11.197",
-        "conveyor": "false",
-        "unfinishedCount": 0,
-        "reviewCount": 1
+        "conveyor": "false"
     },
     {
         "deviceNum": "MJK50027",

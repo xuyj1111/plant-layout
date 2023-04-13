@@ -23,7 +23,7 @@ const exec = sql => {
                         console.log('连接mysql失败!');
                     } else {
                         resolve(result);
-                        console.log('连接mysql成功!');
+                        console.log('mysql执行成功!');
                     }
                 });
             }
@@ -261,6 +261,25 @@ router.get('/plant/problems/groupby', (request, response) => {
             };
         })
         response.send(data);
+    })
+})
+
+// 修改问题点状态（指定id）
+router.put('/plant/problem', (request, response) => {
+    const id = request.query.id;
+    const status = request.query.status;
+    console.log(`>>> request to update plant probelsm status, id[${id}] status [${status}]`);
+    if(id == null || status == null) {
+        console.log(`参数错误`);
+        response.statusCode = 400;
+        response.statusMessage = 'Parameter error';
+        response.send();
+        return;
+    }
+    var sqlStr = `update problems set status = '${status}' where id = '${id}'`;
+    console.log(`exec sql [${sqlStr}]`);
+    exec(sqlStr).then(() => {
+        response.send();
     })
 })
 module.exports = router;
