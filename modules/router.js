@@ -50,6 +50,29 @@ const STATUS_VALUE = {
     'review': '审核中',
     'finished': '已完成'
 }
+const USER_ROLE = {
+    'all': 'root',
+    'zt1': 'assist',
+    'zt2': 'assist',
+    'zt3': 'assist',
+    'improve': 'assist',
+    'provide': 'assist',
+    'assy': 'local',
+    'logistics': 'local',
+    'case': 'local',
+    'gear': 'local',
+    'pulley': 'local',
+    'differential': 'local',
+    'heat': 'local'
+}
+
+const ASSIST_VALUE = {
+    'zt1': 'ZT1-保全',
+    'zt2': 'ZT2-组装技术',
+    'zt3': 'ZT3-加工技术',
+    'improve': '改善班',
+    'provide': '供给中心'
+}
 
 
 // “登陆”接口
@@ -239,6 +262,7 @@ router.get('/plant/problems', (request, response) => {
 // 以设备编号和岗位号作为分组条件，然后返回信息为：设备编号，岗位号，状态=unfinished的数量，状态=review的数量
 router.get('/plant/problems/groupby', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
+    const role = USER_ROLE[request.query.option];
     console.log(`>>> request to get plant probelsms for groupby`);
     if (plant == null) {
         console.log(`plant值不能为null`);
@@ -247,7 +271,22 @@ router.get('/plant/problems/groupby', (request, response) => {
         response.send();
         return;
     }
-    var sqlStr = `SELECT device_num, station_num, SUM(CASE WHEN status = 'unfinished' THEN 1 ELSE 0 END) AS unfinished_count, SUM(CASE WHEN status = 'review' THEN 1 ELSE 0 END) AS review_count FROM problems`;
+    if (role == null) {
+        console.log(`option值错误`);
+        response.statusCode = 400;
+        response.statusMessage = 'Option param error';
+        response.send();
+        return;
+    }
+    var table;
+    if(role == 'root') {
+        table = 'problems'
+    } else if(role == 'assist') {
+        table = `(SELECT * FROM problems WHERE is_need_help = '${ASSIST_VALUE[request.query.option]}') as assist_table`
+    } else if(role == 'local') {
+        table = `(SELECT * FROM problems WHERE is_need_help = '否' or status = 'review') as local_table`
+    }
+    var sqlStr = `SELECT device_num, station_num, SUM(CASE WHEN status = 'unfinished' THEN 1 ELSE 0 END) AS unfinished_count, SUM(CASE WHEN status = 'review' THEN 1 ELSE 0 END) AS review_count FROM ${table}`;
     sqlStr += ` WHERE plant = '${plant}'`;
     sqlStr += `  GROUP BY device_num, station_num`;
     console.log(`exec sql [${sqlStr}]`);
@@ -269,7 +308,7 @@ router.put('/plant/problem', (request, response) => {
     const id = request.query.id;
     const status = request.query.status;
     console.log(`>>> request to update plant probelsm status, id[${id}] status [${status}]`);
-    if(id == null || status == null) {
+    if (id == null || status == null) {
         console.log(`参数错误`);
         response.statusCode = 400;
         response.statusMessage = 'Parameter error';
