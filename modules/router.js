@@ -15,13 +15,13 @@ const exec = sql => {
     return new Promise((resolve, reject) => {
         db.getConnection((err, connection) => {
             if (err) {
-                // console.log('连接mysql失败!');
+                console.log('连接mysql失败!');
                 reject(err);
             } else {
                 connection.query(sql, (err, result) => {
                     if (err) {
                         reject(err);
-                        // console.log('连接mysql失败!');
+                        console.log('连接mysql失败!');
                     } else {
                         resolve(result);
                     }
@@ -77,12 +77,12 @@ const ASSIST_VALUE = {
 
 // “登陆”接口
 router.post('/login', (request, response) => {
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to login, user[${request.body.user}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to login, user[${request.body.user}]`);
     var user = request.body.user;
     var pwd = request.body.pwd;
     fs.readFile('./metadata/config.txt', function (err, data) {
         if (err) {
-            // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `配置文件读取失败：${err.message}`);
+            console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `配置文件读取失败：${err.message}`);
             response.statusCode = 400;
             response.statusMessage = 'Failed to read configuration file';
             response.send();
@@ -107,12 +107,12 @@ router.post('/login', (request, response) => {
                     }
                 }
             }
-            // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + '账号密码错误');
+            console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + '账号密码错误');
             response.statusCode = 400;
             response.statusMessage = 'Wrong account password';
             response.send();
         } catch (error) {
-            // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `解析配置文件失败: ${error.message}`);
+            console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `解析配置文件失败: ${error.message}`);
             response.statusCode = 400;
             response.statusMessage = 'Failed to parse configuration file';
             response.send();
@@ -122,11 +122,11 @@ router.post('/login', (request, response) => {
 
 // “获取地图数据”接口
 router.get('/plant', (request, response) => {
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant data, plant name ${request.query.name} `);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant data, plant name ${request.query.name} `);
     var fileName = `./metadata/${request.query.name}.txt`;
     fs.readFile(fileName, function (err, data) {
         if (err) {
-            // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `地图文件读取失败：${err.message}`);
+            console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `地图文件读取失败：${err.message}`);
             response.statusCode = 400;
             response.statusMessage = 'Failed to read map file';
             response.send();
@@ -136,7 +136,7 @@ router.get('/plant', (request, response) => {
             const encoding = chardet.detect(data);
             response.send(iconv.decode(data, encoding));
         } catch (error) {
-            // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `解析地图数据失败: ${error.message}`);
+            console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `解析地图数据失败: ${error.message}`);
             response.statusCode = 400;
             response.statusMessage = 'Failed to parse map data';
             response.send();
@@ -146,11 +146,11 @@ router.get('/plant', (request, response) => {
 
 // “更新地图数据”接口
 router.post('/plant', (request, response) => {
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to update plant data, plant name[${request.query.name}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to update plant data, plant name[${request.query.name}]`);
     var fileName = `./metadata/${request.query.name}.txt`;
     fs.writeFile(fileName, JSON.stringify(request.body, null, 4), 'utf8', (err) => {
         if (err) {
-            // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `地图文件修改失败：${err.message}`);
+            console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `地图文件修改失败：${err.message}`);
             response.statusCode = 400;
             response.statusMessage = 'Failed to write map file';
             response.send();
@@ -164,15 +164,15 @@ router.post('/plant', (request, response) => {
 router.get('/plant/problems/count', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const deviceNum = request.query.deviceNum;
-    const stationNum = request.query.stationNum == null ? STATION_NUM_NULL : request.query.stationNum;
+    const stationNum = request.query.stationNum == null || request.query.stationNum.trim() == ""  ? STATION_NUM_NULL : request.query.stationNum;
     const isNeedHelp = request.query.isNeedHelp;
     const status = request.query.status;
     const search = request.query.search;
     const department = request.query.department;
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsm count, plant[${plant}] deviceNum [${deviceNum}] 
-    // stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] search[${search}]`)
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsm count, plant[${plant}] deviceNum [${deviceNum}] 
+     stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] search[${search}]`)
     if (plant == null) {
-        // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `plant值不能为null`);
+        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `plant值不能为null`);
         response.statusCode = 400;
         response.statusMessage = 'Plant cannot be null';
         response.send();
@@ -194,7 +194,7 @@ router.get('/plant/problems/count', (request, response) => {
     if (search != null) {
         sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
     }
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
         response.send(data[0]);
     })
@@ -204,24 +204,24 @@ router.get('/plant/problems/count', (request, response) => {
 router.get('/plant/problems', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const deviceNum = request.query.deviceNum;
-    const stationNum = request.query.stationNum == null ? STATION_NUM_NULL : request.query.stationNum;
+    const stationNum = request.query.stationNum == null || request.query.stationNum.trim() == ""  ? STATION_NUM_NULL : request.query.stationNum;
     const isNeedHelp = request.query.isNeedHelp;
     const status = request.query.status;
     const page = request.query.page;
     const size = request.query.size;
     const search = request.query.search;
     const department = request.query.department;
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsms, plant[${plant}] deviceNum [${deviceNum}] 
-    // stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}] search[${search}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsms, plant[${plant}] deviceNum [${deviceNum}] 
+     stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}] search[${search}]`);
     if (plant == null) {
-        // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `plant值不能为null`);
+        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `plant值不能为null`);
         response.statusCode = 400;
         response.statusMessage = 'Plant cannot be null';
         response.send();
         return;
     }
     if (deviceNum == null) {
-        // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `deviceNum值不能为null`);
+        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `deviceNum值不能为null`);
         response.statusCode = 400;
         response.statusMessage = 'DeviceNum cannot be null';
         response.send();
@@ -240,8 +240,9 @@ router.get('/plant/problems', (request, response) => {
     if (search != null) {
         sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
     }
+    sqlStr += ' order by date_created desc';
     sqlStr += ` limit ${page * size}, ${size}`;
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
         data = data.map(d => {
             return {
@@ -263,16 +264,16 @@ router.get('/plant/problems', (request, response) => {
 router.get('/plant/problems/groupby', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const role = USER_ROLE[request.query.option];
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsms for groupby`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsms for groupby`);
     if (plant == null) {
-        // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `plant值不能为null`);
+        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `plant值不能为null`);
         response.statusCode = 400;
         response.statusMessage = 'Plant cannot be null';
         response.send();
         return;
     }
     if (role == null) {
-        // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `option值错误`);
+        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `option值错误`);
         response.statusCode = 400;
         response.statusMessage = 'Option param error';
         response.send();
@@ -289,7 +290,7 @@ router.get('/plant/problems/groupby', (request, response) => {
     var sqlStr = `SELECT device_num, station_num, SUM(CASE WHEN status = 'unfinished' THEN 1 ELSE 0 END) AS unfinished_count, SUM(CASE WHEN status = 'review' THEN 1 ELSE 0 END) AS review_count FROM ${table}`;
     sqlStr += ` WHERE plant = '${plant}'`;
     sqlStr += `  GROUP BY device_num, station_num`;
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
         data = data.map(d => {
             return {
@@ -307,16 +308,16 @@ router.get('/plant/problems/groupby', (request, response) => {
 router.put('/plant/problem', (request, response) => {
     const id = request.query.id;
     const status = request.query.status;
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to update plant probelsm status, id[${id}] status [${status}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to update plant probelsm status, id[${id}] status [${status}]`);
     if (id == null || status == null) {
-        // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `参数错误`);
+        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `参数错误`);
         response.statusCode = 400;
         response.statusMessage = 'Parameter error';
         response.send();
         return;
     }
     var sqlStr = `update problems set status = '${status}' where id = '${id}'`;
-    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then(() => {
         response.send();
     })
