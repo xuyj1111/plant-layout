@@ -169,7 +169,8 @@ router.get('/plant/problems/count', (request, response) => {
     const status = request.query.status;
     const search = request.query.search;
     const department = request.query.department;
-    const allDevice = request.query.allDevice;
+    const startDatetime = request.query.startDatetime;
+    const endDatetime = request.query.endDatetime;
     //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsm count, plant[${plant}] deviceNum [${deviceNum}] 
     //stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] search[${search}]`)
     if (plant == null) {
@@ -193,10 +194,10 @@ router.get('/plant/problems/count', (request, response) => {
         sqlStr += ` and status = '${status}'`;
     }
     if (search != null) {
-        sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+        sqlStr += ` and (id like '%${search}%' or device_num like '%${search}%' or station_num like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
     }
-    if (allDevice != null) {
-        sqlStr += ` and (device_num, station_num) NOT IN (${allDevice})`;
+    if (startDatetime != null && endDatetime != null) {
+        sqlStr += ` and date_created >= '${startDatetime}' and date_created <= '${endDatetime}'`;
     }
     //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then(data => {
@@ -215,6 +216,8 @@ router.get('/plant/problems', (request, response) => {
     const size = request.query.size;
     const search = request.query.search;
     const department = request.query.department;
+    const startDatetime = request.query.startDatetime;
+    const endDatetime = request.query.endDatetime;
     //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to get plant probelsms, plant[${plant}] deviceNum [${deviceNum}] 
     //stationNum[${stationNum}] isNeedHelp[${isNeedHelp}] status[${status}] page[${page}] size[${size}] search[${search}]`);
     if (plant == null) {
@@ -224,7 +227,7 @@ router.get('/plant/problems', (request, response) => {
         response.send();
         return;
     }
-    var sqlStr = `select id, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
+    var sqlStr = `select id, device_num, station_num, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
     if (deviceNum != null) {
         sqlStr += ` and device_num = '${deviceNum}' and station_num = '${stationNum}'`
     }
@@ -238,7 +241,10 @@ router.get('/plant/problems', (request, response) => {
         sqlStr += ` and status = '${status}'`;
     }
     if (search != null) {
-        sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+        sqlStr += ` and (id like '%${search}%' or device_num like '%${search}%' or station_num like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+    }
+    if (startDatetime != null && endDatetime != null) {
+        sqlStr += ` and date_created >= '${startDatetime}' and date_created <= '${endDatetime}'`;
     }
     sqlStr += ' order by date_created desc';
     sqlStr += ` limit ${page * size}, ${size}`;
@@ -247,8 +253,10 @@ router.get('/plant/problems', (request, response) => {
         data = data.map(d => {
             return {
                 id: d.id,
+                deviceNum: d.device_num,
+                stationNum: d.station_num == STATION_NUM_NULL ? '' : d.station_num,
                 name: d.name,
-                dateCreated: moment(d.date_created,).format('YYYY-MM-DD HH:mm:ss'),
+                dateCreated: moment(d.date_created).format('YYYY-MM-DD HH:mm:ss'),
                 detail: d.detail,
                 isNeedHelp: d.is_need_help,
                 picture: d.picture,
@@ -267,6 +275,8 @@ router.post('/plant/problems/unmatch/count', (request, response) => {
     const search = request.body.search;
     const department = request.body.department;
     const allDevice = request.body.allDevice;
+    const startDatetime = request.body.startDatetime;
+    const endDatetime = request.body.endDatetime;
     if (plant == null) {
         response.statusCode = 400;
         response.statusMessage = 'Plant cannot be null';
@@ -284,7 +294,10 @@ router.post('/plant/problems/unmatch/count', (request, response) => {
         sqlStr += ` and status = '${status}'`;
     }
     if (search != null) {
-        sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+        sqlStr += ` and (id like '%${search}%' or device_num like '%${search}%' or station_num like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+    }
+    if (startDatetime != null && endDatetime != null) {
+        sqlStr += ` and date_created >= '${startDatetime}' and date_created <= '${endDatetime}'`;
     }
     sqlStr += ` and (device_num, station_num) NOT IN (${allDevice})`;
     exec(sqlStr).then(data => {
@@ -303,13 +316,15 @@ router.post('/plant/problems/unmatch', (request, response) => {
     const search = request.body.search;
     const department = request.body.department;
     const allDevice = request.body.allDevice;
+    const startDatetime = request.body.startDatetime;
+    const endDatetime = request.body.endDatetime;
     if (plant == null) {
         response.statusCode = 400;
         response.statusMessage = 'Plant cannot be null';
         response.send();
         return;
     }
-    var sqlStr = `select id, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
+    var sqlStr = `select id, device_num, station_num, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
     if (isNeedHelp != null) {
         JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
             : sqlStr += ` and is_need_help = '否'`;
@@ -320,7 +335,10 @@ router.post('/plant/problems/unmatch', (request, response) => {
         sqlStr += ` and status = '${status}'`;
     }
     if (search != null) {
-        sqlStr += ` and (id like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+        sqlStr += ` and (id like '%${search}%' or device_num like '%${search}%' or station_num like '%${search}%' or name like '%${search}%' or detail like '%${search}%')`;
+    }
+    if (startDatetime != null && endDatetime != null) {
+        sqlStr += ` and date_created >= '${startDatetime}' and date_created <= '${endDatetime}'`;
     }
     sqlStr += ` and (device_num, station_num) NOT IN (${allDevice})`;
     sqlStr += ' order by date_created desc';
@@ -329,8 +347,10 @@ router.post('/plant/problems/unmatch', (request, response) => {
         data = data.map(d => {
             return {
                 id: d.id,
+                deviceNum: d.device_num,
+                stationNum: d.station_num == STATION_NUM_NULL ? '' : d.station_num,
                 name: d.name,
-                dateCreated: moment(d.date_created,).format('YYYY-MM-DD HH:mm:ss'),
+                dateCreated: moment(d.date_created).format('YYYY-MM-DD HH:mm:ss'),
                 detail: d.detail,
                 isNeedHelp: d.is_need_help,
                 picture: d.picture,
