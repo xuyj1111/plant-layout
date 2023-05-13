@@ -164,7 +164,7 @@ router.post('/plant', (request, response) => {
 router.get('/plant/problems/count', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const deviceNum = request.query.deviceNum;
-    const stationNum = request.query.stationNum == null || request.query.stationNum.trim() == ""  ? STATION_NUM_NULL : request.query.stationNum;
+    const stationNum = request.query.stationNum != null && request.query.stationNum.trim() == ""  ? STATION_NUM_NULL : request.query.stationNum;
     const isNeedHelp = request.query.isNeedHelp;
     const status = request.query.status;
     const search = request.query.search;
@@ -204,7 +204,7 @@ router.get('/plant/problems/count', (request, response) => {
 router.get('/plant/problems', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const deviceNum = request.query.deviceNum;
-    const stationNum = request.query.stationNum == null || request.query.stationNum.trim() == ""  ? STATION_NUM_NULL : request.query.stationNum;
+    const stationNum = request.query.stationNum != null && request.query.stationNum.trim() == ""  ? STATION_NUM_NULL : request.query.stationNum;
     const isNeedHelp = request.query.isNeedHelp;
     const status = request.query.status;
     const page = request.query.page;
@@ -220,14 +220,10 @@ router.get('/plant/problems', (request, response) => {
         response.send();
         return;
     }
-    if (deviceNum == null) {
-        console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `deviceNum值不能为null`);
-        response.statusCode = 400;
-        response.statusMessage = 'DeviceNum cannot be null';
-        response.send();
-        return;
+    var sqlStr = `select id, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
+    if (deviceNum != null) {
+        sqlStr += ` and device_num = '${deviceNum}' and station_num = '${stationNum}'`
     }
-    var sqlStr = `select id, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}' and device_num = '${deviceNum}' and station_num = '${stationNum}'`;
     if (isNeedHelp != null) {
         JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
             : sqlStr += ` and is_need_help = '否'`;
