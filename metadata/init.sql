@@ -11,6 +11,7 @@ CREATE TABLE `problems` (
   `detail`       VARCHAR(255) NOT NULL COMMENT '问题点描述',
   `is_need_help` VARCHAR(50)  NOT NULL COMMENT '是否需要其他部门协助',
   `picture`      VARCHAR(255) NOT NULL COMMENT '图片url',
+  ``
   `status`       VARCHAR(20)  DEFAULT 'unfinished' COMMENT '状态',
   PRIMARY KEY (`id`),
   INDEX idx_device_station (`device_num`, `station_num`),
