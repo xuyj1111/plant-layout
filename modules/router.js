@@ -361,7 +361,7 @@ router.post('/plant/problems/unmatch', (request, response) => {
     })
 })
 
-// 以设备编号和岗位号作为分组条件，然后返回信息为：设备编号，岗位号，状态=unfinished的数量，状态=review的数量
+// 以设备编号和岗位号作为分组条件
 router.get('/plant/problems/groupby', (request, response) => {
     const plant = PLANT_VALUE[request.query.plant];
     const role = USER_ROLE[request.query.option];
@@ -380,15 +380,22 @@ router.get('/plant/problems/groupby', (request, response) => {
         response.send();
         return;
     }
-    var table;
+    let table;
     if (role == 'root') {
         table = 'problems'
     } else if (role == 'assist') {
         table = `(SELECT * FROM problems WHERE is_need_help = '${ASSIST_VALUE[request.query.option]}') as assist_table`
     } else if (role == 'local') {
-        table = `(SELECT * FROM problems WHERE is_need_help = '否' or status = 'review') as local_table`
+        table = `(SELECT * FROM problems WHERE is_need_help = '否') as local_table`
     }
-    var sqlStr = `SELECT device_num, station_num, SUM(CASE WHEN status = 'unfinished' THEN 1 ELSE 0 END) AS unfinished_count, SUM(CASE WHEN status = 'review' THEN 1 ELSE 0 END) AS review_count FROM ${table}`;
+    var sqlStr = `SELECT device_num, station_num, 
+    SUM(CASE WHEN status IS NOT NULL THEN 1 ELSE 0 END) AS count, 
+    SUM(CASE WHEN status = 'unfinished' AND is_need_help != '否' THEN 1 ELSE 0 END) AS need_help_and_unfinished, 
+    SUM(CASE WHEN status = 'review' AND is_need_help != '否' THEN 1 ELSE 0 END) AS need_help_and_review, 
+    SUM(CASE WHEN status = 'finished' AND is_need_help != '否' THEN 1 ELSE 0 END) AS need_help_and_finished, 
+    SUM(CASE WHEN status = 'unfinished' AND is_need_help = '否' THEN 1 ELSE 0 END) AS no_help_and_unfinished, 
+    SUM(CASE WHEN status = 'finished' AND is_need_help = '否' THEN 1 ELSE 0 END) AS no_help_and_finished 
+    FROM ${table}`;
     sqlStr += ` WHERE plant = '${plant}'`;
     sqlStr += `  GROUP BY device_num, station_num`;
     //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
@@ -396,9 +403,13 @@ router.get('/plant/problems/groupby', (request, response) => {
         data = data.map(d => {
             return {
                 deviceNum: d.device_num,
-                stationNum: d.station_num,
-                unfinishedCount: d.unfinished_count,
-                reviewCount: d.review_count
+                stationNum: d.station_num == STATION_NUM_NULL ? '' : d.station_num,
+                count: d.count,
+                needHelpAndUnfinished: d.need_help_and_unfinished,
+                needHelpAndReview: d.need_help_and_review,
+                needHelpAndFinished: d.need_help_and_finished,
+                noHelpAndUnfinished: d.no_help_and_unfinished,
+                noHelpAndFinished: d.no_help_and_finished
             };
         })
         response.send(data);

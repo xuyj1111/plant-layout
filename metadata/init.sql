@@ -3,15 +3,15 @@ DROP TABLE IF EXISTS `problems`;
 -- 除序号、状态外，所有字段联合唯一索引
 CREATE TABLE `problems` (
   `id`           BIGINT(20)   NOT NULL AUTO_INCREMENT COMMENT '序号',
-  `plant`        VARCHAR(20) NOT NULL COMMENT '厂房',
-  `device_num`   VARCHAR(50) NOT NULL COMMENT '设备编号' COLLATE utf8mb4_bin,
-  `station_num`  VARCHAR(50) DEFAULT NULL COMMENT '岗位号' COLLATE utf8mb4_bin,
-  `name`         VARCHAR(50) NOT NULL COMMENT '提交人',
+  `plant`        VARCHAR(20)  NOT NULL COMMENT '厂房',
+  `device_num`   VARCHAR(50)  NOT NULL COMMENT '设备编号' COLLATE utf8mb4_bin,
+  `station_num`  VARCHAR(50)  NOT NULL COMMENT '岗位号' COLLATE utf8mb4_bin,
+  `name`         VARCHAR(50)  NOT NULL COMMENT '提交人',
   `date_created` DATETIME     NOT NULL COMMENT '提交日期',
   `detail`       VARCHAR(255) NOT NULL COMMENT '问题点描述',
-  `is_need_help` VARCHAR(50) NOT NULL COMMENT '是否需要其他部门协助',
+  `is_need_help` VARCHAR(50)  NOT NULL COMMENT '是否需要其他部门协助',
   `picture`      VARCHAR(255) NOT NULL COMMENT '图片url',
-  `status`       VARCHAR(20) DEFAULT 'unfinished' COMMENT '状态',
+  `status`       VARCHAR(20)  DEFAULT 'unfinished' COMMENT '状态',
   PRIMARY KEY (`id`),
   INDEX idx_device_station (`device_num`, `station_num`),
   UNIQUE INDEX unique_idx (`plant`, `device_num`, `station_num`, `name`, `date_created`, `detail`, `is_need_help`, `picture`)
