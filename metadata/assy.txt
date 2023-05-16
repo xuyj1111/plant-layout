@@ -1288,7 +1288,7 @@
     },
     {
         "deviceNum": "MJK50027",
-        "stationNum": "aca23fb1-8320-4a29-b376-da37b3f2b836",
+        "stationNum": "A001",
         "coordX": "37.58",
         "coordY": "112.647",
         "width": "31.573",
