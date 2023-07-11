@@ -227,7 +227,7 @@ router.get('/plant/problems', (request, response) => {
         response.send();
         return;
     }
-    var sqlStr = `select id, device_num, station_num, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
+    var sqlStr = `select id, device_num, station_num, name, date_created, detail, is_need_help, remark, picture, return_reason, status from problems where plant = '${plant}'`;
     if (deviceNum != null) {
         sqlStr += ` and device_num = '${deviceNum}' and station_num = '${stationNum}'`
     }
@@ -260,7 +260,9 @@ router.get('/plant/problems', (request, response) => {
                 detail: d.detail,
                 isNeedHelp: d.is_need_help,
                 picture: d.picture,
-                status: STATUS_VALUE[d.status]
+                remark: d.remark,
+                status: STATUS_VALUE[d.status],
+                returnReason: d.return_reason
             };
         })
         response.send(data);
@@ -324,7 +326,7 @@ router.post('/plant/problems/unmatch', (request, response) => {
         response.send();
         return;
     }
-    var sqlStr = `select id, device_num, station_num, name, date_created, detail, is_need_help, picture, status from problems where plant = '${plant}'`;
+    var sqlStr = `select id, device_num, station_num, name, date_created, detail, is_need_help, picture, remark, status, return_reason from problems where plant = '${plant}'`;
     if (isNeedHelp != null) {
         JSON.parse(isNeedHelp) ? sqlStr += ` and is_need_help != '否'`
             : sqlStr += ` and is_need_help = '否'`;
@@ -349,12 +351,14 @@ router.post('/plant/problems/unmatch', (request, response) => {
                 id: d.id,
                 deviceNum: d.device_num,
                 stationNum: d.station_num == STATION_NUM_NULL ? '' : d.station_num,
-                name: d.name,
+                name: d1.name,
                 dateCreated: moment(d.date_created).format('YYYY-MM-DD HH:mm:ss'),
                 detail: d.detail,
                 isNeedHelp: d.is_need_help,
                 picture: d.picture,
-                status: STATUS_VALUE[d.status]
+                remark: d.remark,
+                status: STATUS_VALUE[d.status],
+                returnReason: d.return_reason
             };
         })
         response.send(data);
