@@ -420,10 +420,13 @@ router.get('/plant/problems/groupby', (request, response) => {
     })
 })
 
-// 修改问题点状态（指定id）
+// 修改问题点状态、对策、退回理由（指定id）
 router.put('/plant/problem', (request, response) => {
     const id = request.query.id;
     const status = request.query.status;
+    const remark = request.query.remark;
+    const returnReason = request.query.returnReason;
+    const isNeedHelp = request.query.isNeedHelp;
     //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to update plant probelsm status, id[${id}] status [${status}]`);
     if (id == null || status == null) {
         //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `参数错误`);
@@ -432,10 +435,33 @@ router.put('/plant/problem', (request, response) => {
         response.send();
         return;
     }
-    var sqlStr = `update problems set status = '${status}' where id = '${id}'`;
-    //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
-    exec(sqlStr).then(() => {
-        response.send();
+    var sqlStr = `update problems set `;
+    if (remark != null) {
+        sqlStr += `remark = '${remark}', `;
+    }
+    if (returnReason != null) {
+        sqlStr += `return_reason = '${returnReason}', `;
+    }
+    sqlStr += `status = '${status}' where id = '${id}'`;
+    if (isNeedHelp != null) {
+        sqlStr += ` and is_need_help = '${isNeedHelp}'`;
+    }
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
+    exec(sqlStr).then((result) => {
+        const data = { affectedRows: result.affectedRows };
+        console.log('rows:' + result.affectedRows);
+        response.json(data);
+    })
+})
+
+// 根据id修改“是否需要其他部门协助”字段
+router.put('/plant/problem/isNeedHelp', (request, response) => {
+    const id = request.query.id;
+    const isNeedHelp = request.query.isNeedHelp;
+    var sqlStr = `update problems set is_need_help = '${isNeedHelp}' where id = '${id}'`;
+    exec(sqlStr).then((result) => {
+        const data = { affectedRows: result.affectedRows };
+        response.json(data);
     })
 })
 module.exports = router;
