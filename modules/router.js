@@ -427,6 +427,7 @@ router.put('/plant/problem', (request, response) => {
     const remark = request.query.remark;
     const returnReason = request.query.returnReason;
     const isNeedHelp = request.query.isNeedHelp;
+    const oldStatus = request.query.oldStatus;
     //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `>>> request to update plant probelsm status, id[${id}] status [${status}]`);
     if (id == null || status == null) {
         //console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `参数错误`);
@@ -446,10 +447,12 @@ router.put('/plant/problem', (request, response) => {
     if (isNeedHelp != null) {
         sqlStr += ` and is_need_help = '${isNeedHelp}'`;
     }
-    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
+    if (oldStatus != null) {
+        sqlStr += ` and status = '${oldStatus}'`;
+    }
+    // console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then((result) => {
         const data = { affectedRows: result.affectedRows };
-        console.log('rows:' + result.affectedRows);
         response.json(data);
     })
 })
@@ -458,7 +461,9 @@ router.put('/plant/problem', (request, response) => {
 router.put('/plant/problem/isNeedHelp', (request, response) => {
     const id = request.query.id;
     const isNeedHelp = request.query.isNeedHelp;
-    var sqlStr = `update problems set is_need_help = '${isNeedHelp}' where id = '${id}'`;
+    const oldStatus = request.query.oldStatus;
+    var sqlStr = `update problems set is_need_help = '${isNeedHelp}' where id = '${id}' and status = '${oldStatus}'`;
+    console.log(date.format(new Date(),'YYYY-MM-DD HH:mm:ss') + ': ' + `exec sql [${sqlStr}]`);
     exec(sqlStr).then((result) => {
         const data = { affectedRows: result.affectedRows };
         response.json(data);
