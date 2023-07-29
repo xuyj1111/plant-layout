@@ -3,6 +3,7 @@ const history = require('connect-history-api-fallback');
 const userRouter = require('./modules/router');
 const opn = require('opn');
 const app = express();
+const cors = require('cors');
 
 // 使用h5 history模式需要载入 connect-history-api-fallback 中间件，用于单页面项目
 // express允许访问静态资源，通过url后缀名访问对应资源，但在vue打包的单页面项目中，只有一个 index.html，其他页面（模块）是由vue路由显示
@@ -20,17 +21,19 @@ app.use(history({
     ]
 }));
 app.use(express.static('dist'));
+// 允许所有源进行跨域请求，也可以指定允许的域名
+app.use(cors());
 
 // 自己实现的跨域中间件
-app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.setHeader(
-        'Access-Control-Allow-Headers',
-        'Content-Type, Authorization'
-    );
-    next();
-});
+// app.use(function (req, res, next) {
+//     res.setHeader('Access-Control-Allow-Origin', '*');
+//     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+//     res.setHeader(
+//         'Access-Control-Allow-Headers',
+//         'Content-Type, Authorization'
+//     );
+//     next();
+// });
 
 app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(express.json({ extended: true, limit: "10mb" }));
