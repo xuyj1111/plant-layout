@@ -351,7 +351,7 @@ router.post('/plant/problems/unmatch', (request, response) => {
                 id: d.id,
                 deviceNum: d.device_num,
                 stationNum: d.station_num == STATION_NUM_NULL ? '' : d.station_num,
-                name: d1.name,
+                name: d.name,
                 dateCreated: moment(d.date_created).format('YYYY-MM-DD HH:mm:ss'),
                 detail: d.detail,
                 isNeedHelp: d.is_need_help,
